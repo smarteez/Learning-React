@@ -1,0 +1,12 @@
+{
+  "description": "Retrieve a single product by its ID.",
+  "method": "GET",
+  "endpoint": "/products/3",
+  "exampleResponse": {
+    "id": 3,
+    "name": "Gaming Mouse",
+    "price": 499,
+    "productTypeId": 2,
+    "productCategoryId": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "PATCH updates only the fields provided. Other fields remain unchanged.",
+  "method": "PATCH",
+  "endpoint": "/products/3",
+  "originalProduct": {
+    "id": 3,
+    "name": "Gaming Mouse",
+    "price": 499,
+    "productTypeId": 2,
+    "productCategoryId": 1
+  },
+  "bodySent": {
+    "price": 599
+  },
+  "resultingProduct": {
+    "id": 3,
+    "name": "Gaming Mouse",
+    "price": 599,
+    "productTypeId": 2,
+    "productCategoryId": 1
+  }
+}

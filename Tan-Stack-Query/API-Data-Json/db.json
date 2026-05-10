@@ -1,0 +1,80 @@
+{
+  "productCategories": [
+    { "id": 0, "name": "Please Select" },
+    { "id": 1, "name": "Electronics" },
+    { "id": 2, "name": "Home Appliances" },
+    { "id": 3, "name": "Gaming" },
+    { "id": 4, "name": "Fashion" },
+    { "id": 5, "name": "Sports & Outdoors" }
+  ],
+
+  "productTypes": [
+    { "id": 101, "categoryId": 1, "name": "Smartphones" },
+    { "id": 102, "categoryId": 1, "name": "Laptops" },
+    { "id": 103, "categoryId": 1, "name": "Audio Devices" },
+    { "id": 104, "categoryId": 1, "name": "Wearables" },
+    { "id": 105, "categoryId": 1, "name": "Computer Accessories" },
+
+    { "id": 201, "categoryId": 2, "name": "Kitchen Appliances" },
+    { "id": 202, "categoryId": 2, "name": "Cleaning Appliances" },
+    { "id": 203, "categoryId": 2, "name": "Cooling & Heating" },
+    { "id": 204, "categoryId": 2, "name": "Laundry" },
+    { "id": 205, "categoryId": 2, "name": "Small Home Devices" },
+
+    { "id": 301, "categoryId": 3, "name": "Consoles" },
+    { "id": 302, "categoryId": 3, "name": "Games" },
+    { "id": 303, "categoryId": 3, "name": "Controllers" },
+    { "id": 304, "categoryId": 3, "name": "Gaming Accessories" },
+    { "id": 305, "categoryId": 3, "name": "PC Gaming Gear" },
+
+    { "id": 401, "categoryId": 4, "name": "Men's Clothing" },
+    { "id": 402, "categoryId": 4, "name": "Women's Clothing" },
+    { "id": 403, "categoryId": 4, "name": "Footwear" },
+    { "id": 404, "categoryId": 4, "name": "Accessories" },
+    { "id": 405, "categoryId": 4, "name": "Bags" },
+
+    { "id": 501, "categoryId": 5, "name": "Fitness Equipment" },
+    { "id": 502, "categoryId": 5, "name": "Outdoor Gear" },
+    { "id": 503, "categoryId": 5, "name": "Cycling" },
+    { "id": 504, "categoryId": 5, "name": "Team Sports" },
+    { "id": 505, "categoryId": 5, "name": "Water Sports" }
+  ],
+
+  "products": [
+    { "id": 1, "name": "Galaxy S24", "price": 18999, "productTypeId": 101 },
+    { "id": 2, "name": "MacBook Air M3", "price": 24999, "productTypeId": 102 },
+    { "id": 3, "name": "Sony WH-1000XM5", "price": 7999, "productTypeId": 103 },
+    { "id": 4, "name": "Apple Watch Series 9", "price": 9999, "productTypeId": 104 },
+    { "id": 5, "name": "Logitech MX Master 3S", "price": 1999, "productTypeId": 105 },
+
+    { "id": 6, "name": "Philips Air Fryer XXL", "price": 3499, "productTypeId": 201 },
+    { "id": 7, "name": "Dyson V15 Vacuum", "price": 12999, "productTypeId": 202 },
+    { "id": 8, "name": "Hisense 12000 BTU AC", "price": 5999, "productTypeId": 203 },
+    { "id": 9, "name": "Samsung 9kg Washing Machine", "price": 8999, "productTypeId": 204 },
+    { "id": 10, "name": "Russell Hobbs Kettle", "price": 499, "productTypeId": 205 },
+
+    { "id": 11, "name": "PlayStation 5 Slim", "price": 13999, "productTypeId": 301 },
+    { "id": 12, "name": "Elden Ring", "price": 1199, "productTypeId": 302 },
+    { "id": 13, "name": "Xbox Wireless Controller", "price": 1299, "productTypeId": 303 },
+    { "id": 14, "name": "Razer Gaming Mousepad", "price": 499, "productTypeId": 304 },
+    { "id": 15, "name": "HyperX Cloud III Headset", "price": 1999, "productTypeId": 305 },
+
+    { "id": 16, "name": "Men's Slim Fit Jeans", "price": 399, "productTypeId": 401 },
+    { "id": 17, "name": "Women's Summer Dress", "price": 599, "productTypeId": 402 },
+    { "id": 18, "name": "Nike Air Max 270", "price": 2499, "productTypeId": 403 },
+    { "id": 19, "name": "Leather Wallet", "price": 299, "productTypeId": 404 },
+    { "id": 20, "name": "Adidas Backpack", "price": 699, "productTypeId": 405 },
+
+    { "id": 21, "name": "Adjustable Dumbbells 20kg", "price": 1499, "productTypeId": 501 },
+    { "id": 22, "name": "Camping Tent 4‑Person", "price": 1999, "productTypeId": 502 },
+    { "id": 23, "name": "Mountain Bike Helmet", "price": 899, "productTypeId": 503 },
+    { "id": 24, "name": "Soccer Ball (FIFA Quality)", "price": 399, "productTypeId": 504 },
+    { "id": 25, "name": "Snorkeling Set", "price": 799, "productTypeId": 505 },
+
+    { "id": 26, "name": "Dell XPS 15", "price": 32999, "productTypeId": 102 },
+    { "id": 27, "name": "JBL Charge 5 Speaker", "price": 2499, "productTypeId": 103 },
+    { "id": 28, "name": "KitchenAid Stand Mixer", "price": 7999, "productTypeId": 201 },
+    { "id": 29, "name": "Nintendo Switch OLED", "price": 8999, "productTypeId": 301 },
+    { "id": 30, "name": "Puma Running Shoes", "price": 1299, "productTypeId": 403 }
+  ]
+}

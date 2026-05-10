@@ -1,0 +1,21 @@
+{
+  "description": "Retrieve all products.",
+  "method": "GET",
+  "endpoint": "/products",
+  "exampleResponse": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 1200,
+      "productTypeId": 2,
+      "productCategoryId": 1
+    },
+    {
+      "id": 2,
+      "name": "Keyboard",
+      "price": 350,
+      "productTypeId": 3,
+      "productCategoryId": 1
+    }
+  ]
+}

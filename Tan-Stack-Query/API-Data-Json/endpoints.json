@@ -1,0 +1,30 @@
+{
+  "baseUrl": "http://localhost:4000",
+
+  "productCategories": {
+    "getAll": "${baseUrl}/productCategories",
+    "getById": "${baseUrl}/productCategories/:id",
+    "create": "${baseUrl}/productCategories",
+    "updatePut": "${baseUrl}/productCategories/:id",
+    "updatePatch": "${baseUrl}/productCategories/:id",
+    "delete": "${baseUrl}/productCategories/:id"
+  },
+
+  "productTypes": {
+    "getAll": "${baseUrl}/productTypes",
+    "getById": "${baseUrl}/productTypes/:id",
+    "create": "${baseUrl}/productTypes",
+    "updatePut": "${baseUrl}/productTypes/:id",
+    "updatePatch": "${baseUrl}/productTypes/:id",
+    "delete": "${baseUrl}/productTypes/:id"
+  },
+
+  "products": {
+    "getAll": "${baseUrl}/products",
+    "getById": "${baseUrl}/products/:id",
+    "create": "${baseUrl}/products",
+    "updatePut": "${baseUrl}/products/:id",
+    "updatePatch": "${baseUrl}/products/:id",
+    "delete": "${baseUrl}/products/:id"
+  }
+}

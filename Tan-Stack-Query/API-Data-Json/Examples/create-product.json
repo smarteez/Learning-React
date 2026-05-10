@@ -1,0 +1,18 @@
+{
+  "description": "Create a new product.",
+  "method": "POST",
+  "endpoint": "/products",
+  "bodySent": {
+    "name": "Wireless Headset",
+    "price": 899,
+    "productTypeId": 4,
+    "productCategoryId": 1
+  },
+  "exampleResponse": {
+    "id": 7,
+    "name": "Wireless Headset",
+    "price": 899,
+    "productTypeId": 4,
+    "productCategoryId": 1
+  }
+}

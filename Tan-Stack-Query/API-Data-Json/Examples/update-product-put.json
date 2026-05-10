@@ -1,0 +1,26 @@
+{
+  "description": "PUT replaces the entire product. All fields must be included.",
+  "method": "PUT",
+  "endpoint": "/products/3",
+  "originalProduct": {
+    "id": 3,
+    "name": "Gaming Mouse",
+    "price": 499,
+    "productTypeId": 2,
+    "productCategoryId": 1
+  },
+  "bodySent": {
+    "id": 3,
+    "name": "Gaming Mouse Pro",
+    "price": 599,
+    "productTypeId": 2,
+    "productCategoryId": 1
+  },
+  "resultingProduct": {
+    "id": 3,
+    "name": "Gaming Mouse Pro",
+    "price": 599,
+    "productTypeId": 2,
+    "productCategoryId": 1
+  }
+}

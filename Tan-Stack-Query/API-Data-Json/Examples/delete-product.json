@@ -1,0 +1,6 @@
+{
+  "description": "Delete a product by its ID.",
+  "method": "DELETE",
+  "endpoint": "/products/3",
+  "exampleResponse": {}
+}
