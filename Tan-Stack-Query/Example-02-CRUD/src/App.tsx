@@ -1,45 +1,24 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { AppMetadata } from "./data/AppMetaData";
-import ProductCategoryDropdown from "./components/dropdowns/ProductCategoryDropdown";
-import { useState } from "react";
-import type { ProductCategory } from "./types/productCategory.types";
+import { SideMenu } from "./components/SideMenu";
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+import { SearchAndFilterBar } from "./components/SearchAndFilterBar";
+import "./App.css";
+
 
 const queryClient = new QueryClient();
 function App() {
-   const [selectedCategory, setSelectedCategory] = useState<ProductCategory | null>(null);
   return (
     <QueryClientProvider client={queryClient}>
-      <div>
-        <div style={{ textAlign: "center" }}>
-          <h1>{AppMetadata.title}</h1>
-          <p>{AppMetadata.description}</p>
-          <span>Version: {AppMetadata.version}</span>
-
-              <div style={{ padding: "20px" }}>
-      <h1>Product Category Selector</h1>
-
-      <ProductCategoryDropdown
-        selectedId={selectedCategory?.id ?? 0}
-        onSelect={(item) => setSelectedCategory(item)}
-      />
-
-      {selectedCategory && (
-        <div style={{ marginTop: "20px" }}>
-          <h3>Selected Category</h3>
-          <p>
-            <strong>ID:</strong> {selectedCategory.id}
-          </p>
-          <p>
-            <strong>Name:</strong> {selectedCategory.name}
-          </p>
-        </div>
-      )}
-    </div>
-    
+      <SideMenu />
+      <div className="main-content">
+        <SearchAndFilterBar />
       </div>
-    </div>
-  </QueryClientProvider>
+    </QueryClientProvider>
   );
 }
+
 
 export default App;

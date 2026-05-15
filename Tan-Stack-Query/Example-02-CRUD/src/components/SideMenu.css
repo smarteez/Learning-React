@@ -1,0 +1,9 @@
+.side-menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 220px;
+  height: 100vh;
+  background-color: #253053;
+  z-index: 999;
+}

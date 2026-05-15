@@ -1,6 +1,15 @@
 {
   "baseUrl": "http://localhost:4000",
 
+  "statusTypes": {
+    "getAll": "${baseUrl}/statusTypes",
+    "getById": "${baseUrl}/statusTypes/:id",
+    "create": "${baseUrl}/statusTypes",
+    "updatePut": "${baseUrl}/statusTypes/:id",
+    "updatePatch": "${baseUrl}/statusTypes/:id",
+    "delete": "${baseUrl}/statusTypes/:id"
+  },
+
   "productCategories": {
     "getAll": "${baseUrl}/productCategories",
     "getById": "${baseUrl}/productCategories/:id",

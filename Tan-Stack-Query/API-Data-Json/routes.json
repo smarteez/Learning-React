@@ -1,0 +1,4 @@
+{
+  "/api/productTypes/category/:id": "/productTypes?categoryId=:id",
+  "/api/products/status/:id": "/products?statusTypeId=:id"
+}

@@ -1,0 +1,51 @@
+.main-content {
+  margin-left: 220px;
+  padding: 20px;
+  width: calc(100% - 320px);
+  box-sizing: border-box;
+}
+
+/* The row that holds search + status */
+.toolbar-row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 24px;
+}
+
+/* LEFT SIDE — must stretch */
+.left-section {
+  flex: 1;              /* take all remaining space */
+  display: flex;        /* allow child to stretch */
+}
+
+/* Force the MUI TextField to stretch */
+.left-section .MuiTextField-root {
+  width: 100%;
+}
+
+/* RIGHT SIDE — stays tight */
+.right-section {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+/* SearchAndFilterBar.css */
+
+.filter-card {
+  margin: 16px 0;
+  border-radius: 12px;
+  padding: 4px;
+}
+
+.toolbar-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.left-section,
+.right-section {
+  flex: 1;
+}
