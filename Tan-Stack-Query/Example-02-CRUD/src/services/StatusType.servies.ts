@@ -1,8 +1,8 @@
 
 import { Endpoints } from "../apis/endPoints.types";
-import type { StatusTypeModel } from "../models/StatusTypeModel";
+import type { StatusType } from "../models/StatusType.model";
 
-export async function GetAllStatusTypes(): Promise<StatusTypeModel[]> {;
+export async function GetAllStatusTypes(): Promise<StatusType[]> {;
   const res = await fetch(Endpoints.statusTypes.getAll);
   if (!res.ok) throw new Error("Failed to load status types");
 
@@ -15,7 +15,7 @@ export async function GetAllStatusTypes(): Promise<StatusTypeModel[]> {;
   }));
 }
 
-export async function GetStatusTypeById(id: number): Promise<StatusTypeModel | null> {
+export async function GetStatusTypeById(id: number): Promise<StatusType | null> {
   const res = await fetch(`${Endpoints.statusTypes.getById}/${id}`);
 
   const json = await res.json();

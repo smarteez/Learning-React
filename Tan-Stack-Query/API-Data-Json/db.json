@@ -6,171 +6,625 @@
   ],
 
   "productCategories": [
-    { "id": 1, "name": "Electronics" },
-    { "id": 2, "name": "Home Appliances" },
-    { "id": 3, "name": "Gaming" },
-    { "id": 4, "name": "Fashion" },
-    { "id": 5, "name": "Sports & Outdoors" },
-    { "id": 6, "name": "Health & Beauty" }
-  ],
+  { "id": 1, "name": "Electronics", "shortcode": "ELEC" },
+  { "id": 2, "name": "Home Appliances", "shortcode": "HOME" },
+  { "id": 3, "name": "Gaming", "shortcode": "GAME" },
+  { "id": 4, "name": "Fashion", "shortcode": "FASH" },
+  { "id": 5, "name": "Sports & Outdoors", "shortcode": "SPORT" },
+  { "id": 6, "name": "Health & Beauty", "shortcode": "HLTH" }
+],
 
-  "productTypes": [
-    { "id": 101, "categoryId": 1, "name": "Smartphones" },
-    { "id": 102, "categoryId": 1, "name": "Laptops" },
-    { "id": 103, "categoryId": 1, "name": "Audio" },
-    { "id": 104, "categoryId": 1, "name": "Wearables" },
-    { "id": 105, "categoryId": 1, "name": "Accessories" },
+"productTypes": [
+  { "id": 101, "categoryId": 1, "name": "Smartphones", "shortcode": "SMART" },
+  { "id": 102, "categoryId": 1, "name": "Laptops", "shortcode": "LAP" },
+  { "id": 103, "categoryId": 1, "name": "Audio", "shortcode": "AUD" },
+  { "id": 104, "categoryId": 1, "name": "Wearables", "shortcode": "WEAR" },
+  { "id": 105, "categoryId": 1, "name": "Accessories", "shortcode": "ACC" },
 
-    { "id": 201, "categoryId": 2, "name": "Kitchen" },
-    { "id": 202, "categoryId": 2, "name": "Cleaning" },
-    { "id": 203, "categoryId": 2, "name": "Cooling" },
-    { "id": 204, "categoryId": 2, "name": "Laundry" },
-    { "id": 205, "categoryId": 2, "name": "Small Appliances" },
+  { "id": 201, "categoryId": 2, "name": "Kitchen", "shortcode": "KITCH" },
+  { "id": 202, "categoryId": 2, "name": "Cleaning", "shortcode": "CLEAN" },
+  { "id": 203, "categoryId": 2, "name": "Cooling", "shortcode": "COOL" },
+  { "id": 204, "categoryId": 2, "name": "Laundry", "shortcode": "LAUN" },
+  { "id": 205, "categoryId": 2, "name": "Small Appliances", "shortcode": "SMALL" },
 
-    { "id": 301, "categoryId": 3, "name": "Consoles" },
-    { "id": 302, "categoryId": 3, "name": "Games" },
-    { "id": 303, "categoryId": 3, "name": "Controllers" },
-    { "id": 304, "categoryId": 3, "name": "Peripherals" },
-    { "id": 305, "categoryId": 3, "name": "Headsets" },
+  { "id": 301, "categoryId": 3, "name": "Consoles", "shortcode": "CONS" },
+  { "id": 302, "categoryId": 3, "name": "Games", "shortcode": "GAME" },
+  { "id": 303, "categoryId": 3, "name": "Controllers", "shortcode": "CTRL" },
+  { "id": 304, "categoryId": 3, "name": "Peripherals", "shortcode": "PERI" },
+  { "id": 305, "categoryId": 3, "name": "Headsets", "shortcode": "HEAD" },
 
-    { "id": 401, "categoryId": 4, "name": "Men Clothing" },
-    { "id": 402, "categoryId": 4, "name": "Women Clothing" },
-    { "id": 403, "categoryId": 4, "name": "Footwear" },
-    { "id": 404, "categoryId": 4, "name": "Accessories" },
-    { "id": 405, "categoryId": 4, "name": "Bags" },
+  { "id": 401, "categoryId": 4, "name": "Men Clothing", "shortcode": "MEN" },
+  { "id": 402, "categoryId": 4, "name": "Women Clothing", "shortcode": "WOM" },
+  { "id": 403, "categoryId": 4, "name": "Footwear", "shortcode": "SHOE" },
+  { "id": 404, "categoryId": 4, "name": "Accessories", "shortcode": "ACC" },
+  { "id": 405, "categoryId": 4, "name": "Bags", "shortcode": "BAG" },
 
-    { "id": 501, "categoryId": 5, "name": "Gym Equipment" },
-    { "id": 502, "categoryId": 5, "name": "Camping" },
-    { "id": 503, "categoryId": 5, "name": "Cycling" },
-    { "id": 504, "categoryId": 5, "name": "Ball Sports" },
-    { "id": 505, "categoryId": 5, "name": "Water Sports" },
+  { "id": 501, "categoryId": 5, "name": "Gym Equipment", "shortcode": "GYM" },
+  { "id": 502, "categoryId": 5, "name": "Camping", "shortcode": "CAMP" },
+  { "id": 503, "categoryId": 5, "name": "Cycling", "shortcode": "CYCLE" },
+  { "id": 504, "categoryId": 5, "name": "Ball Sports", "shortcode": "BALL" },
+  { "id": 505, "categoryId": 5, "name": "Water Sports", "shortcode": "WATER" },
 
-    { "id": 601, "categoryId": 6, "name": "Skincare" },
-    { "id": 602, "categoryId": 6, "name": "Haircare" },
-    { "id": 603, "categoryId": 6, "name": "Supplements" },
-    { "id": 604, "categoryId": 6, "name": "Fragrances" },
-    { "id": 605, "categoryId": 6, "name": "Wellness Devices" }
-  ],
+  { "id": 601, "categoryId": 6, "name": "Skincare", "shortcode": "SKIN" },
+  { "id": 602, "categoryId": 6, "name": "Haircare", "shortcode": "HAIR" },
+  { "id": 603, "categoryId": 6, "name": "Supplements", "shortcode": "SUPP" },
+  { "id": 604, "categoryId": 6, "name": "Fragrances", "shortcode": "FRAG" },
+  { "id": 605, "categoryId": 6, "name": "Wellness Devices", "shortcode": "WELL" }
+],
 
-  "products": [
-    { "id": 1, "name": "Galaxy S24", "price": 18999.00, "statusTypeId": 1, "activationDate": "2024-01-10", "productTypeId": 101, "sku": "ELEC-SMART-001", "barcode": "6001234567890", "description": "Flagship Samsung smartphone.", "rating": 5, "createdAt": "2024-01-01T10:00:00Z", "updatedAt": "2024-02-01T10:00:00Z" },
-    { "id": 2, "name": "iPhone 15", "price": 21999.00, "statusTypeId": 1, "activationDate": "2024-02-01", "productTypeId": 101, "sku": "ELEC-SMART-002", "barcode": "6001234567891", "description": "Apple's latest iPhone.", "rating": 5, "createdAt": "2024-01-15T10:00:00Z", "updatedAt": "2024-02-10T10:00:00Z" },
-    { "id": 3, "name": "MacBook Air M3", "price": 24999.00, "statusTypeId": 1, "activationDate": "2024-03-05", "productTypeId": 102, "sku": "ELEC-LAP-001", "barcode": "6001234567892", "description": "Lightweight laptop with M3 chip.", "rating": 5, "createdAt": "2024-02-01T10:00:00Z", "updatedAt": "2024-03-01T10:00:00Z" },
-    { "id": 4, "name": "Dell XPS 15", "price": 32999.00, "statusTypeId": 2, "activationDate": "2023-11-20", "productTypeId": 102, "sku": "ELEC-LAP-002", "barcode": "6001234567893", "description": "High‑performance laptop.", "rating": 5, "createdAt": "2023-10-01T10:00:00Z", "updatedAt": "2023-12-01T10:00:00Z" },
 
-    { "id": 5, "name": "Sony WH‑1000XM5", "price": 7999.00, "statusTypeId": 1, "activationDate": "2024-01-15", "productTypeId": 103, "sku": "ELEC-AUD-001", "barcode": "6001234567894", "description": "Noise‑cancelling headphones.", "rating": 5, "createdAt": "2024-01-01T10:00:00Z", "updatedAt": "2024-01-20T10:00:00Z" },
-    { "id": 6, "name": "Apple Watch Series 9", "price": 9999.00, "statusTypeId": 1, "activationDate": "2024-02-18", "productTypeId": 104, "sku": "ELEC-WEAR-001", "barcode": "6001234567895", "description": "Smartwatch with health tracking.", "rating": 5, "createdAt": "2024-02-01T10:00:00Z", "updatedAt": "2024-02-18T10:00:00Z" },
-    { "id": 7, "name": "Logitech MX Master 3S", "price": 1999.00, "statusTypeId": 1, "activationDate": "2024-01-12", "productTypeId": 105, "sku": "ELEC-ACC-001", "barcode": "6001234567896", "description": "Premium productivity mouse.", "rating": 5, "createdAt": "2024-01-01T10:00:00Z", "updatedAt": "2024-01-12T10:00:00Z" },
-    { "id": 8, "name": "Philips Air Fryer XXL", "price": 3499.00, "statusTypeId": 1, "activationDate": "2024-03-01", "productTypeId": 201, "sku": "HOME-KITCH-001", "barcode": "6001234567897", "description": "Large capacity air fryer.", "rating": 5, "createdAt": "2024-02-10T10:00:00Z", "updatedAt": "2024-03-01T10:00:00Z" },
-
-    { "id": 9, "name": "Dyson V15 Vacuum", "price": 12999.00, "statusTypeId": 2, "activationDate": "2023-12-10", "productTypeId": 202, "sku": "HOME-CLEAN-001", "barcode": "6001234567898", "description": "Cordless vacuum cleaner.", "rating": 5, "createdAt": "2023-11-01T10:00:00Z", "updatedAt": "2023-12-10T10:00:00Z" },
-    { "id": 10, "name": "Hisense 12000 BTU AC", "price": 5999.00, "statusTypeId": 1, "activationDate": "2024-02-20", "productTypeId": 203, "sku": "HOME-COOL-001", "barcode": "6001234567899", "description": "Energy‑efficient AC.", "rating": 5, "createdAt": "2024-02-01T10:00:00Z", "updatedAt": "2024-02-20T10:00:00Z" },
-
-    { "id": 11, "name": "Samsung 9kg Washing Machine", "price": 8999.00, "statusTypeId": 1, "activationDate": "2024-01-25", "productTypeId": 204, "sku": "HOME-LAUN-001", "barcode": "6001234567800", "description": "Front‑loader washing machine.", "rating": 5, "createdAt": "2024-01-01T10:00:00Z", "updatedAt": "2024-01-25T10:00:00Z" },
-    { "id": 12, "name": "Russell Hobbs Kettle", "price": 499.00, "statusTypeId": 1, "activationDate": "2024-03-10", "productTypeId": 205, "sku": "HOME-SMALL-001", "barcode": "6001234567801", "description": "Electric kettle.", "rating": 5, "createdAt": "2024-03-01T10:00:00Z", "updatedAt": "2024-03-10T10:00:00Z" },
-
-    { "id": 13, "name": "PlayStation 5 Slim", "price": 13999.00, "statusTypeId": 1, "activationDate": "2024-02-05", "productTypeId": 301, "sku": "GAME-CON-001", "barcode": "6001234567802", "description": "Sony gaming console.", "rating": 5, "createdAt": "2024-01-20T10:00:00Z", "updatedAt": "2024-02-05T10:00:00Z" },
-    { "id": 14, "name": "Nintendo Switch OLED", "price": 8999.00, "statusTypeId": 2, "activationDate": "2023-10-15", "productTypeId": 301, "sku": "GAME-CON-002", "barcode": "6001234567803", "description": "Hybrid gaming console.", "rating": 5, "createdAt": "2023-09-01T10:00:00Z", "updatedAt": "2023-10-15T10:00:00Z" },
-
-    { "id": 15, "name": "Elden Ring", "price": 1199.00, "statusTypeId": 1, "activationDate": "2024-01-08", "productTypeId": 302, "sku": "GAME-GAME-001", "barcode": "6001234567804", "description": "Open‑world RPG.", "rating": 5, "createdAt": "2024-01-01T10:00:00Z", "updatedAt": "2024-01-08T10:00:00Z" },
-    { "id": 16, "name": "Xbox Wireless Controller", "price": 1299.00, "statusTypeId": 1, "activationDate": "2024-02-14", "productTypeId": 303, "sku": "GAME-CONTR-001", "barcode": "6001234567805", "description": "Wireless controller.", "rating": 5, "createdAt": "2024-02-01T10:00:00Z", "updatedAt": "2024-02-14T10:00:00Z" },
-
-    { "id": 17, "name": "Razer Gaming Mousepad", "price": 499.00, "statusTypeId": 1, "activationDate": "2024-03-02", "productTypeId": 304, "sku": "GAME-PERI-001", "barcode": "6001234567806", "description": "RGB gaming mousepad.", "rating": 5, "createdAt": "2024-02-20T10:00:00Z", "updatedAt": "2024-03-02T10:00:00Z" },
-
-    { "id": 18, "name": "HyperX Cloud III Headset", "price": 1999.00, "statusTypeId": 2, "activationDate": "2023-11-30", "productTypeId": 305, "sku": "GAME-HSET-001", "barcode": "6001234567807", "description": "Gaming headset.", "rating": 5, "createdAt": "2023-11-01T10:00:00Z", "updatedAt": "2023-11-30T10:00:00Z" },
-
-    { "id": 19, "name": "Men's Slim Fit Jeans", "price": 399.00, "statusTypeId": 1, "activationDate": "2024-01-20", "productTypeId": 401, "sku": "FASH-MEN-001", "barcode": "6001234567808", "description": "Slim fit denim jeans.", "rating": 5, "createdAt": "2024-01-01T10:00:00Z", "updatedAt": "2024-01-20T10:00:00Z" },
-    { "id": 20, "name": "Women's Summer Dress", "price": 599.00, "statusTypeId": 1, "activationDate": "2024-02-22", "productTypeId": 402, "sku": "FASH-WOM-001", "barcode": "6001234567809", "description": "Lightweight summer dress.", "rating": 5, "createdAt": "2024-02-01T10:00:00Z", "updatedAt": "2024-02-22T10:00:00Z" },
-
-    { "id": 21, "name": "Nike Air Max 270", "price": 2499.00, "statusTypeId": 1, "activationDate": "2024-03-12", "productTypeId": 403, "sku": "FASH-SHOE-001", "barcode": "6001234567810", "description": "Popular running shoes.", "rating": 5, "createdAt": "2024-03-01T10:00:00Z", "updatedAt": "2024-03-12T10:00:00Z" },
-    { "id": 22, "name": "Leather Wallet", "price": 299.00, "statusTypeId": 2, "activationDate": "2023-09-18", "productTypeId": 404, "sku": "FASH-ACC-001", "barcode": "6001234567811", "description": "Genuine leather wallet.", "rating": 5, "createdAt": "2023-09-01T10:00:00Z", "updatedAt": "2023-09-18T10:00:00Z" },
-
-    { "id": 23, "name": "Adidas Backpack", "price": 699.00, "statusTypeId": 1, "activationDate": "2024-01-28", "productTypeId": 405, "sku": "FASH-BAG-001", "barcode": "6001234567812", "description": "Durable sports backpack.", "rating": 5, "createdAt": "2024-01-01T10:00:00Z", "updatedAt": "2024-01-28T10:00:00Z" },
-
-    { "id": 24, "name": "Adjustable Dumbbells 20kg", "price": 1499.00, "statusTypeId": 1, "activationDate": "2024-02-10", "productTypeId": 501, "sku": "SPORT-GYM-001", "barcode": "6001234567813", "description": "Adjustable dumbbell set.", "rating": 5, "createdAt": "2024-02-01T10:00:00Z", "updatedAt": "2024-01-28T10:00:00Z" },
+  
+"products": [
     {
-  "id": 25,
-  "name": "Camping Tent 4‑Person",
-  "price": 1999.00,
-  "statusTypeId": 1,
-  "activationDate": "2024-03-03",
-  "productTypeId": 502,
-  "sku": "SPORT-CAMP-001",
-  "barcode": "6001234567814",
-  "description": "Durable 4‑person camping tent.",
-  "rating": 5,
-  "createdAt": "2024-03-01T10:00:00Z",
-  "updatedAt": "2024-03-03T10:00:00Z"
-},
-{
-  "id": 26,
-  "name": "Mountain Bike Helmet",
-  "price": 899.00,
-  "statusTypeId": 2,
-  "activationDate": "2023-12-05",
-  "productTypeId": 503,
-  "sku": "SPORT-CYCLE-001",
-  "barcode": "6001234567815",
-  "description": "Safety‑certified mountain bike helmet.",
-  "rating": 5,
-  "createdAt": "2023-11-20T10:00:00Z",
-  "updatedAt": "2023-12-05T10:00:00Z"
-},
-{
-  "id": 27,
-  "name": "Soccer Ball (FIFA Quality)",
-  "price": 399.00,
-  "statusTypeId": 1,
-  "activationDate": "2024-01-18",
-  "productTypeId": 504,
-  "sku": "SPORT-BALL-001",
-  "barcode": "6001234567816",
-  "description": "Professional‑grade soccer ball.",
-  "rating": 5,
-  "createdAt": "2024-01-01T10:00:00Z",
-  "updatedAt": "2024-01-18T10:00:00Z"
-},
-{
-  "id": 28,
-  "name": "Snorkeling Set",
-  "price": 799.00,
-  "statusTypeId": 1,
-  "activationDate": "2024-02-25",
-  "productTypeId": 505,
-  "sku": "SPORT-WATER-001",
-  "barcode": "6001234567817",
-  "description": "Snorkel, mask, and fins set.",
-  "rating": 5,
-  "createdAt": "2024-02-10T10:00:00Z",
-  "updatedAt": "2024-02-25T10:00:00Z"
-},
-{
-  "id": 29,
-  "name": "Vitamin C 1000mg",
-  "price": 199.00,
-  "statusTypeId": 1,
-  "activationDate": "2024-03-08",
-  "productTypeId": 603,
-  "sku": "HLTH-SUPP-001",
-  "barcode": "6001234567818",
-  "description": "Immune‑boosting Vitamin C supplement.",
-  "rating": 5,
-  "createdAt": "2024-03-01T10:00:00Z",
-  "updatedAt": "2024-03-08T10:00:00Z"
-},
-{
-  "id": 30,
-  "name": "Aloe Vera Skin Gel",
-  "price": 149.00,
-  "statusTypeId": 2,
-  "activationDate": "2023-11-12",
-  "productTypeId": 601,
-  "sku": "HLTH-SKIN-001",
-  "barcode": "6001234567819",
-  "description": "Soothing aloe vera gel for skin care.",
-  "rating": 5,
-  "createdAt": "2023-11-01T10:00:00Z",
-  "updatedAt": "2023-11-12T10:00:00Z"
-}
+      "id": 1,
+      "name": "Galaxy S24",
+      "price": 18999.49,
+      "sku": "ELEC-SMART-001",
+      "barcode": "6001234567001",
+      "description": "High-performance smartphone with advanced features.",
+      "rating": 5,
+      "statusType": { "id": 1, "label": "Active", "value": "active" },
+      "productType": {
+        "id": 101,
+        "name": "Smartphones",
+        "shortcode": "SMART",
+        "productCategory": { "id": 1, "name": "Electronics", "shortcode": "ELEC" }
+      },
+      "activationDate": "2024-01-10",
+      "createdAt": "2024-01-01T08:14:00",
+      "updatedAt": "2024-02-01T11:42:00"
+    },
+    {
+      "id": 2,
+      "name": "iPhone 15",
+      "price": 21999.79,
+      "sku": "ELEC-SMART-002",
+      "barcode": "6001234567002",
+      "description": "Premium smartphone with exceptional performance.",
+      "rating": 4,
+      "statusType": { "id": 1, "label": "Active", "value": "active" },
+      "productType": {
+        "id": 101,
+        "name": "Smartphones",
+        "shortcode": "SMART",
+        "productCategory": { "id": 1, "name": "Electronics", "shortcode": "ELEC" }
+      },
+      "activationDate": "2024-02-01",
+      "createdAt": "2024-01-15T09:27:00",
+      "updatedAt": "2024-02-10T15:33:00"
+    },
+    {
+      "id": 3,
+      "name": "MacBook Air M3",
+      "price": 24999.99,
+      "sku": "ELEC-LAP-001",
+      "barcode": "6001234567101",
+      "description": "Lightweight laptop with powerful M3 performance.",
+      "rating": 5,
+      "statusType": { "id": 1, "label": "Active", "value": "active" },
+      "productType": {
+        "id": 102,
+        "name": "Laptops",
+        "shortcode": "LAP",
+        "productCategory": { "id": 1, "name": "Electronics", "shortcode": "ELEC" }
+      },
+      "activationDate": "2024-03-05",
+      "createdAt": "2024-02-01T10:05:00",
+      "updatedAt": "2024-03-01T13:48:00"
+    },
+    {
+      "id": 4,
+      "name": "Dell XPS 15",
+      "price": 32999.59,
+      "sku": "ELEC-LAP-002",
+      "barcode": "6001234567102",
+      "description": "Premium laptop designed for productivity and power.",
+      "rating": 3,
+      "statusType": { "id": 2, "label": "Inactive", "value": "inactive" },
+      "productType": {
+        "id": 102,
+        "name": "Laptops",
+        "shortcode": "LAP",
+        "productCategory": { "id": 1, "name": "Electronics", "shortcode": "ELEC" }
+      },
+      "activationDate": "2023-11-20",
+      "createdAt": "2023-10-01T07:55:00",
+      "updatedAt": "2023-12-01T16:22:00"
+    },
+    {
+      "id": 5,
+      "name": "Sony WH‑1000XM5",
+      "price": 7999.49,
+      "sku": "ELEC-AUD-001",
+      "barcode": "6001234567201",
+      "description": "Noise-cancelling headphones with superior sound.",
+      "rating": 5,
+      "statusType": { "id": 1, "label": "Active", "value": "active" },
+      "productType": {
+        "id": 103,
+        "name": "Audio",
+        "shortcode": "AUD",
+        "productCategory": { "id": 1, "name": "Electronics", "shortcode": "ELEC" }
+      },
+      "activationDate": "2024-01-15",
+      "createdAt": "2024-01-01T12:44:00",
+      "updatedAt": "2024-01-20T14:19:00"
+    },
+    {
+      "id": 6,
+      "name": "Apple Watch Series 9",
+      "price": 9999.29,
+      "sku": "ELEC-WEAR-001",
+      "barcode": "6001234567301",
+      "description": "Advanced smartwatch with health and fitness tracking.",
+      "rating": 4,
+      "statusType": { "id": 1, "label": "Active", "value": "active" },
+      "productType": {
+        "id": 104,
+        "name": "Wearables",
+        "shortcode": "WEAR",
+        "productCategory": { "id": 1, "name": "Electronics", "shortcode": "ELEC" }
+      },
+      "activationDate": "2024-02-18",
+      "createdAt": "2024-02-01T11:03:00",
+      "updatedAt": "2024-02-18T17:40:00"
+    },
+    {
+      "id": 7,
+      "name": "Logitech MX Master 3S",
+      "price": 1999.99,
+      "sku": "ELEC-ACC-001",
+      "barcode": "6001234567401",
+      "description": "Ergonomic wireless mouse for productivity.",
+      "rating": 5,
+      "statusType": { "id": 1, "label": "Active", "value": "active" },
+      "productType": {
+        "id": 105,
+        "name": "Accessories",
+        "shortcode": "ACC",
+        "productCategory": { "id": 1, "name": "Electronics", "shortcode": "ELEC" }
+      },
+      "activationDate": "2024-01-12",
+      "createdAt": "2024-01-01T09:18:00",
+      "updatedAt": "2024-01-12T13:55:00"
+    },
+    {
+      "id": 8,
+      "name": "Philips Air Fryer XXL",
+      "price": 3499.49,
+      "sku": "HOME-KITCH-001",
+      "barcode": "6001234567501",
+      "description": "Large-capacity air fryer for healthier cooking.",
+      "rating": 4,
+      "statusType": { "id": 1, "label": "Active", "value": "active" },
+      "productType": {
+        "id": 201,
+        "name": "Kitchen",
+        "shortcode": "KITCH",
+        "productCategory": { "id": 2, "name": "Home Appliances", "shortcode": "HOME" }
+      },
+      "activationDate": "2024-03-01",
+      "createdAt": "2024-02-10T08:29:00",
+      "updatedAt": "2024-03-01T12:11:00"
+    },
+    {
+      "id": 9,
+      "name": "Dyson V15 Vacuum",
+      "price": 12999.89,
+      "sku": "HOME-CLEAN-001",
+      "barcode": "6001234567601",
+      "description": "High-suction vacuum cleaner with smart sensors.",
+      "rating": 2,
+      "statusType": { "id": 2, "label": "Inactive", "value": "inactive" },
+      "productType": {
+        "id": 202,
+        "name": "Cleaning",
+        "shortcode": "CLEAN",
+        "productCategory": { "id": 2, "name": "Home Appliances", "shortcode": "HOME" }
+      },
+      "activationDate": "2023-12-10",
+      "createdAt": "2023-11-01T10:14:00",
+      "updatedAt": "2023-12-10T15:02:00"
+    },
+    {
+      "id": 10,
+      "name": "Hisense 12000 BTU AC",
+      "price": 5999.79,
+      "sku": "HOME-COOL-001",
+      "barcode": "6001234567701",
+      "description": "Energy-efficient air conditioner for medium rooms.",
+      "rating": 4,
+      "statusType": { "id": 1, "label": "Active", "value": "active" },
+      "productType": {
+        "id": 203,
+        "name": "Cooling",
+        "shortcode": "COOL",
+        "productCategory": { "id": 2, "name": "Home Appliances", "shortcode": "HOME" }
+      },
+      "activationDate": "2024-02-20",
+      "createdAt": "2024-02-01T07:33:00",
+      "updatedAt": "2024-02-20T09:47:00"
+    },
+    {
+      "id": 11,
+      "name": "Samsung 9kg Washing Machine",
+      "price": 8999.49,
+      "sku": "HOME-LAUN-001",
+      "barcode": "6001234567801",
+      "description": "Efficient washing machine with multiple wash modes.",
+      "rating": 4,
+      "statusType": { "id": 1, "label": "Active", "value": "active" },
+      "productType": {
+        "id": 204,
+        "name": "Laundry",
+        "shortcode": "LAUN",
+        "productCategory": { "id": 2, "name": "Home Appliances", "shortcode": "HOME" }
+      },
+      "activationDate": "2024-01-25",
+      "createdAt": "2024-01-01T06:58:00",
+      "updatedAt": "2024-01-25T14:44:00"
+    },
+    {
+      "id": 12,
+      "name": "Russell Hobbs Kettle",
+      "price": 499.99,
+      "sku": "HOME-SMALL-001",
+      "barcode": "6001234567901",
+      "description": "Durable electric kettle with fast boiling.",
+      "rating": 5,
+      "statusType": { "id": 1, "label": "Active", "value": "active" },
+      "productType": {
+        "id": 205,
+        "name": "Small Appliances",
+        "shortcode": "SMALL",
+        "productCategory": { "id": 2, "name": "Home Appliances", "shortcode": "HOME" }
+      },
+      "activationDate": "2024-03-10",
+      "createdAt": "2024-03-01T11:22:00",
+      "updatedAt": "2024-03-10T16:51:00"
+    },
+    {
+      "id": 13,
+      "name": "PlayStation 5 Slim",
+      "price": 13999.69,
+      "sku": "GAME-CONS-001",
+      "barcode": "6001234568001",
+      "description": "Next-generation gaming console with fast load times.",
+      "rating": 5,
+      "statusType": { "id": 1, "label": "Active", "value": "active" },
+      "productType": {
+        "id": 301,
+        "name": "Consoles",
+        "shortcode": "CONS",
+        "productCategory": { "id": 3, "name": "Gaming", "shortcode": "GAME" }
+      },
+      "activationDate": "2024-02-05",
+      "createdAt": "2024-01-20T10:41:00",
+      "updatedAt": "2024-02-05T13:09:00"
+    },
+    {
+      "id": 14,
+      "name": "Nintendo Switch OLED",
+      "price": 8999.39,
+      "sku": "GAME-CONS-002",
+      "barcode": "6001234568002",
+      "description": "Portable gaming console with vibrant OLED display.",
+      "rating": 3,
+      "statusType": { "id": 2, "label": "Inactive", "value": "inactive" },
+      "productType": {
+        "id": 301,
+        "name": "Consoles",
+        "shortcode": "CONS",
+        "productCategory": { "id": 3, "name": "Gaming", "shortcode": "GAME" }
+      },
+      "activationDate": "2023-10-15",
+      "createdAt": "2023-09-01T09:12:00",
+      "updatedAt": "2023-10-15T11:56:00"
+    },
+    {
+      "id": 15,
+      "name": "Elden Ring",
+      "price": 1199.89,
+      "sku": "GAME-GAME-001",
+      "barcode": "6001234568101",
+      "description": "Open-world action RPG with challenging combat.",
+      "rating": 5,
+      "statusType": { "id": 1, "label": "Active", "value": "active" },
+      "productType": {
+        "id": 302,
+        "name": "Games",
+        "shortcode": "GAME",
+        "productCategory": { "id": 3, "name": "Gaming", "shortcode": "GAME" }
+      },
+      "activationDate": "2024-01-08",
+      "createdAt": "2024-01-01T08:33:00",
+      "updatedAt": "2024-01-08T12:27:00"
+    },
+    {
+      "id": 16,
+      "name": "Xbox Wireless Controller",
+      "price": 1299.59,
+      "sku": "GAME-CTRL-001",
+      "barcode": "6001234568201",
+      "description": "Wireless controller designed for precision gaming.",
+      "rating": 4,
+      "statusType": { "id": 1, "label": "Active", "value": "active" },
+      "productType": {
+        "id": 303,
+        "name": "Controllers",
+        "shortcode": "CTRL",
+        "productCategory": { "id": 3, "name": "Gaming", "shortcode": "GAME" }
+      },
+      "activationDate": "2024-02-14",
+      "createdAt": "2024-02-01T07:49:00",
+      "updatedAt": "2024-02-14T10:58:00"
+    },
+    {
+      "id": 17,
+      "name": "Razer Gaming Mousepad",
+      "price": 499.49,
+      "sku": "GAME-PERI-001",
+      "barcode": "6001234568301",
+      "description": "Smooth-surface mousepad optimized for gaming sensors.",
+      "rating": 5,
+      "statusType": { "id": 1, "label": "Active", "value": "active" },
+      "productType": {
+        "id": 304,
+        "name": "Peripherals",
+        "shortcode": "PERI",
+        "productCategory": { "id": 3, "name": "Gaming", "shortcode": "GAME" }
+      },
+      "activationDate": "2024-03-02",
+      "createdAt": "2024-02-20T09:05:00",
+      "updatedAt": "2024-03-02T14:36:00"
+    },
+    {
+      "id": 18,
+      "name": "HyperX Cloud III Headset",
+      "price": 1999.29,
+      "sku": "GAME-HEAD-001",
+      "barcode": "6001234568401",
+      "description": "Comfortable gaming headset with immersive audio.",
+      "rating": 3,
+      "statusType": { "id": 2, "label": "Inactive", "value": "inactive" },
+      "productType": {
+        "id": 305,
+        "name": "Headsets",
+        "shortcode": "HEAD",
+        "productCategory": { "id": 3, "name": "Gaming", "shortcode": "GAME" }
+      },
+      "activationDate": "2023-11-30",
+      "createdAt": "2023-11-01T10:22:00",
+      "updatedAt": "2023-11-30T13:44:00"
+    },
+    {
+      "id": 19,
+      "name": "Men's Slim Fit Jeans",
+      "price": 399.99,
+      "sku": "FASH-MEN-001",
+      "barcode": "6001234568501",
+      "description": "Comfortable slim-fit jeans suitable for daily wear.",
+      "rating": 4,
+      "statusType": { "id": 1, "label": "Active", "value": "active" },
+      "productType": {
+        "id": 401,
+        "name": "Men Clothing",
+        "shortcode": "MEN",
+        "productCategory": { "id": 4, "name": "Fashion", "shortcode": "FASH" }
+      },
+      "activationDate": "2024-01-20",
+      "createdAt": "2024-01-01T11:17:00",
+      "updatedAt": "2024-01-20T15:29:00"
+    },
+    {
+      "id": 20,
+      "name": "Women's Summer Dress",
+      "price": 599.49,
+      "sku": "FASH-WOM-001",
+      "barcode": "6001234568601",
+      "description": "Lightweight summer dress with a comfortable fit.",
+      "rating": 5,
+      "statusType": { "id": 1, "label": "Active", "value": "active" },
+      "productType": {
+        "id": 402,
+        "name": "Women Clothing",
+        "shortcode": "WOM",
+        "productCategory": { "id": 4, "name": "Fashion", "shortcode": "FASH" }
+      },
+      "activationDate": "2024-02-22",
+      "createdAt": "2024-02-01T08:42:00",
+      "updatedAt": "2024-02-22T12:55:00"
+    },
+    {
+      "id": 21,
+      "name": "Nike Air Max 270",
+      "price": 2499.79,
+      "sku": "FASH-SHOE-001",
+      "barcode": "6001234568701",
+      "description": "Stylish and comfortable sneakers for everyday use.",
+      "rating": 4,
+      "statusType": { "id": 1, "label": "Active", "value": "active" },
+      "productType": {
+        "id": 403,
+        "name": "Footwear",
+        "shortcode": "SHOE",
+        "productCategory": { "id": 4, "name": "Fashion", "shortcode": "FASH" }
+      },
+      "activationDate": "2024-03-12",
+      "createdAt": "2024-03-01T09:33:00",
+      "updatedAt": "2024-03-12T14:41:00"
+    },
+    {
+      "id": 22,
+      "name": "Leather Wallet",
+      "price": 299.89,
+      "sku": "FASH-ACC-001",
+      "barcode": "6001234568801",
+      "description": "Durable leather wallet with multiple compartments.",
+      "rating": 3,
+      "statusType": { "id": 2, "label": "Inactive", "value": "inactive" },
+      "productType": {
+        "id": 404,
+        "name": "Accessories",
+        "shortcode": "ACC",
+        "productCategory": { "id": 4, "name": "Fashion", "shortcode": "FASH" }
+      },
+      "activationDate": "2023-09-18",
+      "createdAt": "2023-09-01T10:11:00",
+      "updatedAt": "2023-09-18T16:22:00"
+    },
+    {
+      "id": 23,
+      "name": "Adidas Backpack",
+      "price": 699.59,
+      "sku": "FASH-BAG-001",
+      "barcode": "6001234568901",
+      "description": "Durable backpack suitable for school or travel.",
+      "rating": 5,
+      "statusType": { "id": 1, "label": "Active", "value": "active" },
+      "productType": {
+        "id": 405,
+        "name": "Bags",
+        "shortcode": "BAG",
+        "productCategory": { "id": 4, "name": "Fashion", "shortcode": "FASH" }
+      },
+      "activationDate": "2024-01-28",
+      "createdAt": "2024-01-01T07:44:00",
+      "updatedAt": "2024-01-28T11:58:00"
+    },
+    {
+      "id": 24,
+      "name": "Adjustable Dumbbells 20kg",
+      "price": 1499.49,
+      "sku": "SPORT-GYM-001",
+      "barcode": "6001234569001",
+      "description": "Adjustable dumbbells ideal for strength training.",
+      "rating": 4,
+      "statusType": { "id": 1, "label": "Active", "value": "active" },
+      "productType": {
+        "id": 501,
+        "name": "Gym Equipment",
+        "shortcode": "GYM",
+        "productCategory": { "id": 5, "name": "Sports & Outdoors", "shortcode": "SPORT" }
+      },
+      "activationDate": "2024-02-10",
+      "createdAt": "2024-02-01T08:09:00",
+      "updatedAt": "2024-01-28T12:33:00"
+    },
+    {
+      "id": 25,
+      "name": "Camping Tent 4‑Person",
+      "price": 1999.99,
+      "sku": "SPORT-CAMP-001",
+      "barcode": "6001234569101",
+      "description": "Spacious 4-person tent suitable for outdoor trips.",
+      "rating": 5,
+      "statusType": { "id": 1, "label": "Active", "value": "active" },
+      "productType": {
+        "id": 502,
+        "name": "Camping",
+        "shortcode": "CAMP",
+        "productCategory": { "id": 5, "name": "Sports & Outdoors", "shortcode": "SPORT" }
+      },
+      "activationDate": "2024-03-03",
+      "createdAt": "2024-03-01T10:14:00",
+      "updatedAt": "2024-03-03T15:47:00"
+    },
+    {
+      "id": 26,
+      "name": "Mountain Bike Helmet",
+      "price": 899.49,
+      "sku": "SPORT-CYCLE-001",
+      "barcode": "6001234569201",
+      "description": "Protective cycling helmet with adjustable straps.",
+      "rating": 2,
+      "statusType": { "id": 2, "label": "Inactive", "value": "inactive" },
+      "productType": {
+        "id": 503,
+        "name": "Cycling",
+        "shortcode": "CYCLE",
+        "productCategory": { "id": 5, "name": "Sports & Outdoors", "shortcode": "SPORT" }
+      },
+      "activationDate": "2023-12-05",
+      "createdAt": "2023-11-20T09:55:00",
+      "updatedAt": "2023-12-05T13:21:00"
+    },
+    {
+      "id": 27,
+      "name": "Soccer Ball (FIFA Quality)",
+      "price": 399.79,
+      "sku": "SPORT-BALL-001",
+      "barcode": "6001234569301",
+      "description": "Durable soccer ball certified for match play.",
+      "rating": 4,
+      "statusType": { "id": 1, "label": "Active", "value": "active" },
+      "productType": {
+        "id": 504,
+        "name": "Ball Sports",
+        "shortcode": "BALL",
+        "productCategory": { "id": 5, "name": "Sports & Outdoors", "shortcode": "SPORT" }
+      },
+      "activationDate": "2024-01-18",
+      "createdAt": "2024-01-01T11:49:00",
+      "updatedAt": "2024-01-18T14:58:00"
+    },
+    {
+      "id": 28,
+      "name": "Snorkeling Set",
+      "price": 799.29,
+      "sku": "SPORT-WATER-001",
+      "barcode": "6001234569401",
+      "description": "Complete snorkeling set ideal for beginners.",
+      "rating": 5,
+      "statusType": { "id": 1, "label": "Active", "value": "active" },
+      "productType": {
+        "id": 505,
+        "name": "Water Sports",
+        "shortcode": "WATER",
+        "productCategory": { "id": 5, "name": "Sports & Outdoors", "shortcode": "SPORT" }
+      },
+      "activationDate": "2024-02-25",
+      "createdAt": "2024-02-10T08:37:00",
+      "updatedAt": "2024-02-25T12:44:00"
+    },
+    {
+      "id": 29,
+      "name": "Vitamin C 1000mg",
+      "price": 199.59,
+      "sku": "HLTH-SUPP-001",
+      "barcode": "6001234569501",
+      "description": "Daily vitamin C supplement for immune support.",
+      "rating": 4,
+      "statusType": { "id": 1, "label": "Active", "value": "active" },
+      "productType": {
+        "id": 603,
+        "name": "Supplements",
+        "shortcode": "SUPP",
+        "productCategory": { "id": 6, "name": "Health & Beauty", "shortcode": "HLTH" }
+      },
+      "activationDate": "2024-03-08",
+      "createdAt": "2024-03-01T09:14:00",
+      "updatedAt": "2024-03-08T13:33:00"
+    },
+    {
+      "id": 30,
+      "name": "Aloe Vera Skin Gel",
+      "price": 149.49,
+      "sku": "HLTH-SKIN-001",
+      "barcode": "6001234569601",
+      "description": "Soothing aloe vera gel for skin hydration.",
+      "rating": 3,
+      "statusType": { "id": 2, "label": "Inactive", "value": "inactive" },
+      "productType": {
+        "id": 601,
+        "name": "Skincare",
+        "shortcode": "SKIN",
+        "productCategory": { "id": 6, "name": "Health & Beauty", "shortcode": "HLTH" }
+      },
+      "activationDate": "2023-11-12",
+      "createdAt": "2023-11-01T10:48:00",
+      "updatedAt": "2023-11-12T16:29:00"
+    }
   ]
 }
+

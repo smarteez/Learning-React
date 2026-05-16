@@ -1,7 +1,8 @@
 import { useSearchAndFilter } from "./useSearchAndFilter";
 import { useProductsByStatusAndProduct } from "./useProduct";
+import type { ProductFilterState } from "../models/ProductFilterState.model";
 
-export function useFilteredProducts() {
+export function useFilteredProducts(): ProductFilterState {
   const {
     searchTerm,
     setSearchTerm,
@@ -19,7 +20,6 @@ export function useFilteredProducts() {
   return {
     searchTerm,
     setSearchTerm,
-    debouncedSearch,
     statusType,
     setStatusType,
     statusTypes,
@@ -27,3 +27,4 @@ export function useFilteredProducts() {
     isLoading,
   };
 }
+

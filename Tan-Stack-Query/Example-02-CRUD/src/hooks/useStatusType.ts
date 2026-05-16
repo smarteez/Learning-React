@@ -1,12 +1,12 @@
 import { useQuery } from "@tanstack/react-query";
-import type { StatusTypeModel } from "../models/StatusTypeModel";
 import { GetAllStatusTypes, GetStatusTypeById } from "../services/StatusType.servies";
+import type { StatusType } from "../models/StatusType.model";
 
 export function useStatusTypes() {
-  return useQuery<StatusTypeModel[]>({
+  return useQuery<StatusType[]>({
     queryKey: ["statusTypes"],
     queryFn: GetAllStatusTypes,
-    staleTime: 1000 * 60 * 5, // 5 minutes
+    //staleTime: 1000 * 60 * 5, // 5 minutes
   });
 }
 

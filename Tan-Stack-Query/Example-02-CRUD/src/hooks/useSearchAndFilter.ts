@@ -8,11 +8,11 @@ export function useSearchAndFilter() {
   const [searchTerm, setSearchTerm] = useState("");
   const debouncedSearch = useDebounce(searchTerm, 500);
 
-  // Instead of storing statusType in state immediately,
-  // derive the default from the API data
   const [statusType, setStatusType] = useState<number | null>(null);
 
-  const selectedStatusType = statusType ?? statusTypes?.[0]?.id ?? null;
+  const selectedStatusType =
+    statusType ??
+    (statusTypes && statusTypes.length > 0 ? statusTypes[0].id : null);
 
   return {
     searchTerm,
@@ -20,7 +20,9 @@ export function useSearchAndFilter() {
     debouncedSearch,
     statusType: selectedStatusType,
     setStatusType,
-    statusTypes,
+    statusTypes: statusTypes ?? [],   // ← FIX
   };
 }
+
+
 
