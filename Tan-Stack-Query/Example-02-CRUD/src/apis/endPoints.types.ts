@@ -14,7 +14,7 @@ export const Endpoints = {
   productTypes: {
     getAll: `${baseUrl}/productTypes`,
     getById: `${baseUrl}/productTypes/:id`,
-    getByCategoryId: `${baseUrl}/productTypes?categoryId=:id`
+    getByCategoryId: `${baseUrl}/productTypes?categoryId=`
   },
 
   products: {

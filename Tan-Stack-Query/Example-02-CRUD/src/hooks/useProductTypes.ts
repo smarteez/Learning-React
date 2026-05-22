@@ -1,14 +1,12 @@
-
 import { useQuery } from "@tanstack/react-query";
-import { GetProductTypeById } from "../services/productTypes.services";
+import type { ProductType } from "../models/ProductType.model";
+import { GetProductTypesByCategoryById } from "../services/ProductTypes.services";
 
-
-
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-export function useProductType(id: number, options: any = {}) {
-  return useQuery({
-    queryKey: ["productType", id],
-    queryFn: () => GetProductTypeById(id),
-    enabled: options.enabled ?? true,
+export const useProductTypes = (categoryId?: number) => {
+  return useQuery<ProductType[]>({
+    queryKey: ["productTypes", categoryId],
+    queryFn: () => GetProductTypesByCategoryById(categoryId!),
+    enabled: !!categoryId,
+    gcTime:0
   });
-}
+};

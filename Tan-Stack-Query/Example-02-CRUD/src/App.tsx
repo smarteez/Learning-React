@@ -6,6 +6,7 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import "./App.css";
+import { ProductCreatePage } from "./pages/ProductCreate.page";
 
 const queryClient = new QueryClient();
 function App() {
@@ -14,8 +15,10 @@ function App() {
       <SideMenu />
       <div className="main-content">
         <ProductsView />
+        <ProductCreatePage />
       </div>
       
+
     </QueryClientProvider>
   );
 }

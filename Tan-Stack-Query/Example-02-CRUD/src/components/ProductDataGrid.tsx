@@ -14,7 +14,7 @@ import DeleteIcon from "@mui/icons-material/Delete";
 import AutorenewIcon from "@mui/icons-material/Autorenew";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 
-// ⭐ OUTSIDE THE COMPONENT — CLEAN & REUSABLE
+// OUTSIDE THE COMPONENT
 // eslint-disable-next-line react-refresh/only-export-components
 export function buildProductActions(row: any): IconButton[] {
   return [
@@ -38,7 +38,7 @@ export function buildProductActions(row: any): IconButton[] {
       key: 2,
       label: "Update Status",
       icon: <AutorenewIcon />,
-      color: "#0288D1",
+      color: "#e67920",
       showIcon: true,
       action: () => alert(`Update Status ${row.id}`),
     },
@@ -52,7 +52,6 @@ export function buildProductActions(row: any): IconButton[] {
     }
   ];
 }
-
 
 export function ProductDataGrid({ products, isLoading }: ProductFilterState) {
 
@@ -94,7 +93,7 @@ export function ProductDataGrid({ products, isLoading }: ProductFilterState) {
     { field: "activationDate", headerName: "Activation Date", flex: 1 },
     { field: "updatedAt", headerName: "Last Updated", flex: 1 },
 
-    // ⭐ ACTIONS COLUMN
+    // ACTIONS COLUMN
     {
       field: "actions",
       headerName: "Actions",
@@ -103,12 +102,19 @@ export function ProductDataGrid({ products, isLoading }: ProductFilterState) {
       filterable: false,
       renderCell: (params) => {
         const actions = buildProductActions(params.row);
-        const props : IconButtonsProps = {
+        const props: IconButtonsProps = {
           iconButtons: actions,
           iconSize: "small",
           direction: "row",
+          columns: 2
         };
-        return <IconButtonArray {...props} />;
+
+        // ⭐ THIS WRAPPER FIXES THE ONE-ROW PROBLEM
+        return (
+           <div style={{ display: "inline-block", whiteSpace: "normal" }}>
+            <IconButtonArray {...props} />
+          </div>
+        );
       }
     }
   ];

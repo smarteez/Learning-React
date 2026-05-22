@@ -16,4 +16,5 @@ export interface IconButtonsProps {
   iconButtons: IconButton[];
   iconSize?: number | "small" | "medium" | "large" | "xl";
   direction?: LayoutDirection;
+  columns?: number; 
 }
