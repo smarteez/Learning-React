@@ -1,0 +1,19 @@
+{
+  "name": "mock-api",
+  "version": "1.0.0",
+  "description": "Quick mock API using JSON Server",
+  "main": "index.js",
+  "scripts": {
+    "api": "json-server --watch db.json --port 4000"
+  },
+  "keywords": [
+    "json-server",
+    "mock-api",
+    "rest-api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}

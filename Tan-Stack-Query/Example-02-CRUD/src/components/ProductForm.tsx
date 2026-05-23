@@ -38,21 +38,33 @@ export const ProductForm = ({
 
   const { control } = form;
 
+  const withPleaseSelect = (options: any[]) => [
+  { label: "Please Select", value: 0 },
+  ...options,
+];
+
   // Convert arrays into dropdown options
-  const categoryOptions = categories.map((c) => ({
+const categoryOptions = withPleaseSelect(
+  categories.map((c) => ({
     label: c.name,
     value: c.id,
-  }));
+  }))
+);
 
-  const statusOptions = statusTypes.map((s) => ({
-    label: s.name,
+const statusOptions = withPleaseSelect(
+  statusTypes.map((s) => ({
+    label: s.label,
     value: s.id,
-  }));
+  }))
+);
 
-  const typeOptions = productTypes.map((t) => ({
+const typeOptions = withPleaseSelect(
+  productTypes.map((t) => ({
     label: t.name,
     value: t.id,
-  }));
+  }))
+);
+
 
   return (
     <form onSubmit={submit}>

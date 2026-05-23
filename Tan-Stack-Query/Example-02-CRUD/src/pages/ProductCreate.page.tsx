@@ -2,8 +2,6 @@
 
 import { Box, Paper, Typography } from "@mui/material";
 import { ProductForm } from "../components/ProductForm";
-import { LocalizationProvider } from '@mui/x-date-pickers';
-import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { useProductCategories } from "../hooks/useProductCategories";
 import { useStatusTypes } from "../hooks/useStatusType";
 
@@ -35,13 +33,11 @@ export const ProductCreatePage = () => {
           Create New Product
         </Typography>
 
-        <LocalizationProvider dateAdapter={AdapterDayjs}>
           <ProductForm
             categories={categories}
             statusTypes={statusTypes}
             onSubmit={handleSubmit}
           />
-        </LocalizationProvider>
       </Paper>
     </Box>
   );

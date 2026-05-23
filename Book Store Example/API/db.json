@@ -1,0 +1,729 @@
+{
+  "genres": [
+    { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+    { "id": 2, "name": "Dystopian", "description": "Oppressive societies, surveillance, and control." },
+    { "id": 3, "name": "Classic", "description": "Timeless works with enduring cultural value." },
+    { "id": 4, "name": "Romance", "description": "Love, relationships, and emotional connections." },
+    { "id": 5, "name": "Fantasy", "description": "Magical worlds, mythical creatures, epic adventures." },
+    { "id": 6, "name": "Science Fiction", "description": "Speculative futures, technology, and space exploration." },
+    { "id": 7, "name": "Mystery", "description": "Crime-solving, suspense, and hidden truths." },
+    { "id": 8, "name": "Historical", "description": "Stories set in past eras with cultural detail." },
+    { "id": 9, "name": "Thriller", "description": "Fast-paced plots with tension and danger." },
+    { "id": 10, "name": "Biography", "description": "Life stories of real people." }
+  ],
+  "tags": [
+    { "id": 1, "name": "coming-of-age" },
+    { "id": 2, "name": "political" },
+    { "id": 3, "name": "social commentary" },
+    { "id": 4, "name": "love story" },
+    { "id": 5, "name": "adventure" },
+    { "id": 6, "name": "magic" },
+    { "id": 7, "name": "space" },
+    { "id": 8, "name": "crime" },
+    { "id": 9, "name": "war" },
+    { "id": 10, "name": "biographical" }
+  ],
+  "status": [
+    { "id": 1, "name": "Active" },
+    { "id": 2, "name": "Inactive" }
+  ],
+  "books": [
+  {
+    "id": 1,
+    "title": "Shadows of the Silent River",
+    "author": "Liam Carter",
+    "year": 2004,
+    "rating": 4,
+    "isbn": "978-0-111111-01-1",
+    "price": 14.99,
+    "image_url": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
+    "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+    "tags": [
+      { "id": 1, "name": "coming-of-age" },
+      { "id": 3, "name": "social commentary" },
+      { "id": 5, "name": "adventure" }
+    ],
+    "status": { "id": 1, "name": "Active" },
+    "stock": { "NoAvailable": 22, "NoOfSold": 144 }
+  },
+  {
+    "id": 2,
+    "title": "The Last Ember of Dawn",
+    "author": "Aisha Patel",
+    "year": 2012,
+    "rating": 5,
+    "isbn": "978-0-111111-01-2",
+    "price": 16.50,
+    "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
+    "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+    "tags": [
+      { "id": 4, "name": "love story" },
+      { "id": 1, "name": "coming-of-age" }
+    ],
+    "status": { "id": 2, "name": "Inactive" },
+    "stock": { "NoAvailable": 7, "NoOfSold": 89 }
+  },
+  {
+    "id": 3,
+    "title": "Whispers Beneath the Willow Tree",
+    "author": "Marcus Hale",
+    "year": 2018,
+    "rating": 3,
+    "isbn": "978-0-111111-01-3",
+    "price": 11.25,
+    "image_url": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383",
+    "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+    "tags": [
+      { "id": 8, "name": "crime" },
+      { "id": 3, "name": "social commentary" },
+      { "id": 9, "name": "war" }
+    ],
+    "status": { "id": 1, "name": "Active" },
+    "stock": { "NoAvailable": 18, "NoOfSold": 102 }
+  },
+  {
+    "id": 4,
+    "title": "The Painted Horizon",
+    "author": "Elena Brooks",
+    "year": 2020,
+    "rating": 4,
+    "isbn": "978-0-111111-01-4",
+    "price": 13.75,
+    "image_url": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
+    "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+    "tags": [
+      { "id": 5, "name": "adventure" },
+      { "id": 4, "name": "love story" }
+    ],
+    "status": { "id": 2, "name": "Inactive" },
+    "stock": { "NoAvailable": 9, "NoOfSold": 77 }
+  },
+  {
+    "id": 5,
+    "title": "Ashes of the Iron City",
+    "author": "Noah Venter",
+    "year": 1961,
+    "rating": 5,
+    "isbn": "978-0-222222-02-1",
+    "price": 15.99,
+    "image_url": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
+    "genre": { "id": 2, "name": "Dystopian", "description": "Oppressive societies, surveillance, and control." },
+    "tags": [
+      { "id": 2, "name": "political" },
+      { "id": 3, "name": "social commentary" },
+      { "id": 9, "name": "war" }
+    ],
+    "status": { "id": 1, "name": "Active" },
+    "stock": { "NoAvailable": 31, "NoOfSold": 211 }
+  },
+  {
+    "id": 6,
+    "title": "The Glass Republic",
+    "author": "Sofia Mendes",
+    "year": 1974,
+    "rating": 4,
+    "isbn": "978-0-222222-02-2",
+    "price": 12.50,
+    "image_url": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383",
+    "genre": { "id": 2, "name": "Dystopian", "description": "Oppressive societies, surveillance, and control." },
+    "tags": [
+      { "id": 8, "name": "crime" },
+      { "id": 2, "name": "political" }
+    ],
+    "status": { "id": 2, "name": "Inactive" },
+    "stock": { "NoAvailable": 6, "NoOfSold": 134 }
+  },
+  {
+    "id": 7,
+    "title": "Echoes of the Forbidden Zone",
+    "author": "Daniel Cross",
+    "year": 1988,
+    "rating": 3,
+    "isbn": "978-0-222222-02-3",
+    "price": 14.25,
+    "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
+    "genre": { "id": 2, "name": "Dystopian", "description": "Oppressive societies, surveillance, and control." },
+    "tags": [
+      { "id": 5, "name": "adventure" },
+      { "id": 7, "name": "space" },
+      { "id": 3, "name": "social commentary" }
+    ],
+    "status": { "id": 1, "name": "Active" },
+    "stock": { "NoAvailable": 19, "NoOfSold": 98 }
+  },
+  {
+    "id": 8,
+    "title": "The Silent Regime",
+    "author": "Hannah Lee",
+    "year": 1999,
+    "rating": 2,
+    "isbn": "978-0-222222-02-4",
+    "price": 10.99,
+    "image_url": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383",
+    "genre": { "id": 2, "name": "Dystopian", "description": "Oppressive societies, surveillance, and control." },
+    "tags": [
+      { "id": 9, "name": "war" },
+      { "id": 2, "name": "political" }
+    ],
+    "status": { "id": 2, "name": "Inactive" },
+    "stock": { "NoAvailable": 4, "NoOfSold": 63 }
+  },
+  {
+    "id": 9,
+    "title": "The Lantern Keeper",
+    "author": "Oliver Grant",
+    "year": 1938,
+    "rating": 5,
+    "isbn": "978-0-333333-03-1",
+    "price": 17.50,
+    "image_url": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
+    "genre": { "id": 3, "name": "Classic", "description": "Timeless works with enduring cultural value." },
+    "tags": [
+      { "id": 1, "name": "coming-of-age" },
+      { "id": 10, "name": "biographical" }
+    ],
+    "status": { "id": 1, "name": "Active" },
+    "stock": { "NoAvailable": 27, "NoOfSold": 302 }
+  },
+  {
+    "id": 10,
+    "title": "Winds Over the Old Harbor",
+    "author": "Clara Jennings",
+    "year": 1944,
+    "rating": 4,
+    "isbn": "978-0-333333-03-2",
+    "price": 13.99,
+    "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
+    "genre": { "id": 3, "name": "Classic", "description": "Timeless works with enduring cultural value." },
+    "tags": [
+      { "id": 4, "name": "love story" },
+      { "id": 9, "name": "war" }
+    ],
+    "status": { "id": 2, "name": "Inactive" },
+    "stock": { "NoAvailable": 5, "NoOfSold": 141 }
+  },
+  {
+    "id": 11,
+    "title": "The Orchard of Forgotten Tales",
+    "author": "Samuel Rhodes",
+    "year": 1952,
+    "rating": 3,
+    "isbn": "978-0-333333-03-3",
+    "price": 12.25,
+    "image_url": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
+    "genre": { "id": 3, "name": "Classic", "description": "Timeless works with enduring cultural value." },
+    "tags": [
+      { "id": 5, "name": "adventure" },
+      { "id": 1, "name": "coming-of-age" },
+      { "id": 3, "name": "social commentary" }
+    ],
+    "status": { "id": 1, "name": "Active" },
+    "stock": { "NoAvailable": 14, "NoOfSold": 112 }
+  },
+  {
+    "id": 12,
+    "title": "The Marble Garden",
+    "author": "Evelyn Hart",
+    "year": 1966,
+    "rating": 2,
+    "isbn": "978-0-333333-03-4",
+    "price": 11.50,
+    "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
+    "genre": { "id": 3, "name": "Classic", "description": "Timeless works with enduring cultural value." },
+    "tags": [
+      { "id": 10, "name": "biographical" },
+      { "id": 4, "name": "love story" }
+    ],
+    "status": { "id": 2, "name": "Inactive" },
+    "stock": { "NoAvailable": 3, "NoOfSold": 58 }
+  },
+  {
+    "id": 13,
+    "title": "Letters from a Crimson Heart",
+    "author": "Grace Holloway",
+    "year": 2011,
+    "rating": 4,
+    "isbn": "978-0-444444-04-1",
+    "price": 14.50,
+    "image_url": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383",
+    "genre": { "id": 4, "name": "Romance", "description": "Love, relationships, and emotional connections." },
+    "tags": [
+      { "id": 4, "name": "love story" },
+      { "id": 1, "name": "coming-of-age" }
+    ],
+    "status": { "id": 1, "name": "Active" },
+    "stock": { "NoAvailable": 21, "NoOfSold": 167 }
+  },
+  {
+    "id": 14,
+    "title": "The Rose of Winter Avenue",
+    "author": "Isabella Moore",
+    "year": 2016,
+    "rating": 5,
+    "isbn": "978-0-444444-04-2",
+    "price": 16.99,
+    "image_url": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
+    "genre": { "id": 4, "name": "Romance", "description": "Love, relationships, and emotional connections." },
+    "tags": [
+      { "id": 4, "name": "love story" },
+      { "id": 5, "name": "adventure" },
+      { "id": 3, "name": "social commentary" }
+    ],
+    "status": { "id": 2, "name": "Inactive" },
+    "stock": { "NoAvailable": 8, "NoOfSold": 94 }
+  },
+  {
+    "id": 15,
+    "title": "A Promise in the Falling Snow",
+    "author": "Julian Marks",
+    "year": 2019,
+    "rating": 3,
+    "isbn": "978-0-444444-04-3",
+    "price": 12.75,
+    "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
+    "genre": { "id": 4, "name": "Romance", "description": "Love, relationships, and emotional connections." },
+    "tags": [
+      { "id": 4, "name": "love story" },
+      { "id": 10, "name": "biographical" }
+    ],
+    "status": { "id": 1, "name": "Active" },
+    "stock": { "NoAvailable": 17, "NoOfSold": 121 }
+  },
+  {
+    "id": 16,
+    "title": "The Velvet Moon Serenade",
+    "author": "Amelia Frost",
+    "year": 2022,
+    "rating": 4,
+    "isbn": "978-0-444444-04-4",
+    "price": 15.25,
+    "image_url": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383",
+    "genre": { "id": 4, "name": "Romance", "description": "Love, relationships, and emotional connections." },
+    "tags": [
+      { "id": 4, "name": "love story" },
+      { "id": 1, "name": "coming-of-age" },
+      { "id": 5, "name": "adventure" }
+    ],
+    "status": { "id": 2, "name": "Inactive" },
+    "stock": { "NoAvailable": 6, "NoOfSold": 73 }
+  },
+  {
+    "id": 17,
+    "title": "The Dragon of Silver Hollow",
+    "author": "Rowan Blake",
+    "year": 2007,
+    "rating": 5,
+    "isbn": "978-0-555555-05-1",
+    "price": 18.99,
+    "image_url": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
+    "genre": { "id": 5, "name": "Fantasy", "description": "Magical worlds, mythical creatures, epic adventures." },
+    "tags": [
+      { "id": 6, "name": "magic" },
+      { "id": 5, "name": "adventure" },
+      { "id": 7, "name": "space" }
+    ],
+    "status": { "id": 1, "name": "Active" },
+    "stock": { "NoAvailable": 29, "NoOfSold": 188 }
+  },
+  {
+    "id": 18,
+    "title": "The Crown of Fallen Stars",
+    "author": "Serena Vale",
+    "year": 2013,
+    "rating": 4,
+    "isbn": "978-0-555555-05-2",
+    "price": 17.25,
+    "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
+    "genre": { "id": 5, "name": "Fantasy", "description": "Magical worlds, mythical creatures, epic adventures." },
+    "tags": [
+      { "id": 6, "name": "magic" },
+      { "id": 5, "name": "adventure" }
+    ],
+    "status": { "id": 2, "name": "Inactive" },
+    "stock": { "NoAvailable": 11, "NoOfSold": 97 }
+  },
+  {
+    "id": 19,
+    "title": "The Serpent of Emberfall",
+    "author": "Caleb Thorn",
+    "year": 2017,
+    "rating": 3,
+    "isbn": "978-0-555555-05-3",
+    "price": 13.99,
+    "image_url": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383",
+    "genre": { "id": 5, "name": "Fantasy", "description": "Magical worlds, mythical creatures, epic adventures." },
+    "tags": [
+      { "id": 6, "name": "magic" },
+      { "id": 7, "name": "space" },
+      { "id": 5, "name": "adventure" }
+    ],
+    "status": { "id": 1, "name": "Active" },
+    "stock": { "NoAvailable": 23, "NoOfSold": 142 }
+  },
+  {
+    "id": 20,
+    "title": "The Oracle of Hollowspire",
+    "author": "Mira Ellington",
+    "year": 2021,
+    "rating": 4,
+    "isbn": "978-0-555555-05-4",
+    "price": 15.50,
+    "image_url": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
+    "genre": { "id": 5, "name": "Fantasy", "description": "Magical worlds, mythical creatures, epic adventures." },
+    "tags": [
+      { "id": 6, "name": "magic" },
+      { "id": 1, "name": "coming-of-age" },
+      { "id": 5, "name": "adventure" }
+    ],
+    "status": { "id": 2, "name": "Inactive" },
+    "stock": { "NoAvailable": 7, "NoOfSold": 66 }
+  },
+  {
+    "id": 21,
+    "title": "Voyagers of the Infinite Path",
+    "author": "Ethan Ward",
+    "year": 2009,
+    "rating": 5,
+    "isbn": "978-0-666666-06-1",
+    "price": 18.75,
+    "image_url": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f",
+    "genre": { "id": 6, "name": "Science Fiction", "description": "Speculative futures, technology, and space exploration." },
+    "tags": [
+      { "id": 7, "name": "space" },
+      { "id": 5, "name": "adventure" },
+      { "id": 3, "name": "social commentary" }
+    ],
+    "status": { "id": 1, "name": "Active" },
+    "stock": { "NoAvailable": 28, "NoOfSold": 201 }
+  },
+  {
+    "id": 22,
+    "title": "The Quantum Paradox",
+    "author": "Nadia Rivers",
+    "year": 2014,
+    "rating": 4,
+    "isbn": "978-0-666666-06-2",
+    "price": 16.50,
+    "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
+    "genre": { "id": 6, "name": "Science Fiction", "description": "Speculative futures, technology, and space exploration." },
+    "tags": [
+      { "id": 7, "name": "space" },
+      { "id": 2, "name": "political" }
+    ],
+    "status": { "id": 2, "name": "Inactive" },
+    "stock": { "NoAvailable": 9, "NoOfSold": 88 }
+  },
+  {
+    "id": 23,
+    "title": "The Last Starborn",
+    "author": "Jaxon Reid",
+    "year": 2018,
+    "rating": 3,
+    "isbn": "978-0-666666-06-3",
+    "price": 14.99,
+    "image_url": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383",
+    "genre": { "id": 6, "name": "Science Fiction", "description": "Speculative futures, technology, and space exploration." },
+    "tags": [
+      { "id": 7, "name": "space" },
+      { "id": 5, "name": "adventure" },
+      { "id": 8, "name": "crime" }
+    ],
+    "status": { "id": 1, "name": "Active" },
+    "stock": { "NoAvailable": 16, "NoOfSold": 109 }
+  },
+  {
+    "id": 24,
+    "title": "Chronicles of the Nebula Gate",
+    "author": "Talia Monroe",
+    "year": 2022,
+    "rating": 4,
+    "isbn": "978-0-666666-06-4",
+    "price": 17.99,
+    "image_url": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
+    "genre": { "id": 6, "name": "Science Fiction", "description": "Speculative futures, technology, and space exploration." },
+    "tags": [
+      { "id": 7, "name": "space" },
+      { "id": 3, "name": "social commentary" },
+      { "id": 5, "name": "adventure" }
+    ],
+    "status": { "id": 2, "name": "Inactive" },
+    "stock": { "NoAvailable": 5, "NoOfSold": 72 }
+  },
+  {
+    "id": 25,
+    "title": "The Clockmaker’s Secret",
+    "author": "Harper Quinn",
+    "year": 2003,
+    "rating": 4,
+    "isbn": "978-0-777777-07-1",
+    "price": 13.50,
+    "image_url": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383",
+    "genre": { "id": 7, "name": "Mystery", "description": "Crime-solving, suspense, and hidden truths." },
+    "tags": [
+      { "id": 8, "name": "crime" },
+      { "id": 5, "name": "adventure" }
+    ],
+    "status": { "id": 1, "name": "Active" },
+    "stock": { "NoAvailable": 20, "NoOfSold": 131 }
+  },
+  {
+    "id": 26,
+    "title": "The Vanishing Portrait",
+    "author": "Lydia Snow",
+    "year": 2009,
+    "rating": 3,
+    "isbn": "978-0-777777-07-2",
+    "price": 12.99,
+    "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
+    "genre": { "id": 7, "name": "Mystery", "description": "Crime-solving, suspense, and hidden truths." },
+    "tags": [
+      { "id": 8, "name": "crime" },
+      { "id": 3, "name": "social commentary" }
+    ],
+    "status": { "id": 2, "name": "Inactive" },
+    "stock": { "NoAvailable": 6, "NoOfSold": 84 }
+  },
+  {
+    "id": 27,
+    "title": "The Whispering Key",
+    "author": "Damian Cole",
+    "year": 2015,
+    "rating": 4,
+    "isbn": "978-0-777777-07-3",
+    "price": 14.25,
+    "image_url": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
+    "genre": { "id": 7, "name": "Mystery", "description": "Crime-solving, suspense, and hidden truths." },
+    "tags": [
+      { "id": 8, "name": "crime" },
+      { "id": 5, "name": "adventure" },
+      { "id": 9, "name": "war" }
+    ],
+    "status": { "id": 1, "name": "Active" },
+    "stock": { "NoAvailable": 18, "NoOfSold": 119 }
+  },
+  {
+    "id": 28,
+    "title": "The Midnight Cipher",
+    "author": "Riley Stone",
+    "year": 2021,
+    "rating": 3,
+    "isbn": "978-0-777777-07-4",
+    "price": 13.75,
+    "image_url": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383",
+    "genre": { "id": 7, "name": "Mystery", "description": "Crime-solving, suspense, and hidden truths." },
+    "tags": [
+      { "id": 8, "name": "crime" },
+      { "id": 2, "name": "political" }
+    ],
+    "status": { "id": 2, "name": "Inactive" },
+    "stock": { "NoAvailable": 7, "NoOfSold": 73 }
+  },
+  {
+    "id": 29,
+    "title": "The Empire of Golden Sands",
+    "author": "Victoria Hale",
+    "year": 1998,
+    "rating": 4,
+    "isbn": "978-0-888888-08-1",
+    "price": 15.99,
+    "image_url": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
+    "genre": { "id": 8, "name": "Historical", "description": "Stories set in past eras with cultural detail." },
+    "tags": [
+      { "id": 9, "name": "war" },
+      { "id": 10, "name": "biographical" }
+    ],
+    "status": { "id": 1, "name": "Active" },
+    "stock": { "NoAvailable": 24, "NoOfSold": 178 }
+  },
+  {
+    "id": 30,
+    "title": "The Silk Road Letters",
+    "author": "Adrian Wells",
+    "year": 2005,
+    "rating": 3,
+    "isbn": "978-0-888888-08-2",
+    "price": 13.50,
+    "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
+    "genre": { "id": 8, "name": "Historical", "description": "Stories set in past eras with cultural detail." },
+    "tags": [
+      { "id": 10, "name": "biographical" },
+      { "id": 3, "name": "social commentary" }
+    ],
+    "status": { "id": 2, "name": "Inactive" },
+    "stock": { "NoAvailable": 5, "NoOfSold": 69 }
+  },
+  {
+    "id": 31,
+    "title": "The Crimson Dynasty",
+    "author": "Helena Cross",
+    "year": 2010,
+    "rating": 4,
+    "isbn": "978-0-888888-08-3",
+    "price": 14.99,
+    "image_url": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
+    "genre": { "id": 8, "name": "Historical", "description": "Stories set in past eras with cultural detail." },
+    "tags": [
+      { "id": 9, "name": "war" },
+      { "id": 5, "name": "adventure" },
+      { "id": 1, "name": "coming-of-age" }
+    ],
+    "status": { "id": 1, "name": "Active" },
+    "stock": { "NoAvailable": 19, "NoOfSold": 133 }
+  },
+  {
+    "id": 32,
+    "title": "The Archivist of Old Kingdoms",
+    "author": "Felix Monroe",
+    "year": 2018,
+    "rating": 3,
+    "isbn": "978-0-888888-08-4",
+    "price": 12.99,
+    "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
+    "genre": { "id": 8, "name": "Historical", "description": "Stories set in past eras with cultural detail." },
+    "tags": [
+      { "id": 10, "name": "biographical" },
+      { "id": 3, "name": "social commentary" }
+    ],
+    "status": { "id": 2, "name": "Inactive" },
+    "stock": { "NoAvailable": 6, "NoOfSold": 81 }
+  },
+  {
+    "id": 33,
+    "title": "The Shadow of the Black Harbor",
+    "author": "Gavin Pierce",
+    "year": 2006,
+    "rating": 4,
+    "isbn": "978-0-999999-09-1",
+    "price": 15.50,
+    "image_url": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383",
+    "genre": { "id": 9, "name": "Thriller", "description": "Fast-paced plots with tension and danger." },
+    "tags": [
+      { "id": 8, "name": "crime" },
+      { "id": 9, "name": "war" }
+    ],
+    "status": { "id": 1, "name": "Active" },
+    "stock": { "NoAvailable": 22, "NoOfSold": 147 }
+  },
+  {
+    "id": 34,
+    "title": "The Silent Corridor",
+    "author": "Mason Drake",
+    "year": 2011,
+    "rating": 3,
+    "isbn": "978-0-999999-09-2",
+    "price": 13.99,
+    "image_url": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
+    "genre": { "id": 9, "name": "Thriller", "description": "Fast-paced plots with tension and danger." },
+    "tags": [
+      { "id": 8, "name": "crime" },
+      { "id": 3, "name": "social commentary" }
+    ],
+    "status": { "id": 2, "name": "Inactive" },
+    "stock": { "NoAvailable": 7, "NoOfSold": 92 }
+  },
+  {
+    "id": 35,
+    "title": "The Edge of Midnight",
+    "author": "Sienna Clarke",
+    "year": 2017,
+    "rating": 4,
+    "isbn": "978-0-999999-09-3",
+    "price": 16.25,
+    "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
+    "genre": { "id": 9, "name": "Thriller", "description": "Fast-paced plots with tension and danger." },
+    "tags": [
+      { "id": 8, "name": "crime" },
+      { "id": 5, "name": "adventure" },
+      { "id": 9, "name": "war" }
+    ],
+    "status": { "id": 1, "name": "Active" },
+    "stock": { "NoAvailable": 18, "NoOfSold": 128 }
+  },
+  {
+    "id": 36,
+    "title": "The Broken Signal",
+    "author": "Derek Vaughn",
+    "year": 2022,
+    "rating": 3,
+    "isbn": "978-0-999999-09-4",
+    "price": 14.50,
+    "image_url": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383",
+    "genre": { "id": 9, "name": "Thriller", "description": "Fast-paced plots with tension and danger." },
+    "tags": [
+      { "id": 8, "name": "crime" },
+      { "id": 2, "name": "political" }
+    ],
+    "status": { "id": 2, "name": "Inactive" },
+    "stock": { "NoAvailable": 5, "NoOfSold": 71 }
+  },
+  {
+    "id": 37,
+    "title": "The Journey of a Quiet Soul",
+    "author": "Nathaniel Brooks",
+    "year": 1995,
+    "rating": 4,
+    "isbn": "978-0-101010-10-1",
+    "price": 14.99,
+    "image_url": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
+    "genre": { "id": 10, "name": "Biography", "description": "Life stories of real people." },
+    "tags": [
+      { "id": 10, "name": "biographical" },
+      { "id": 1, "name": "coming-of-age" }
+    ],
+    "status": { "id": 1, "name": "Active" },
+    "stock": { "NoAvailable": 26, "NoOfSold": 154 }
+  },
+  {
+    "id": 38,
+    "title": "Footsteps Through Time",
+    "author": "Marianne Ellis",
+    "year": 2002,
+    "rating": 3,
+    "isbn": "978-0-101010-10-2",
+    "price": 13.50,
+    "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
+    "genre": { "id": 10, "name": "Biography", "description": "Life stories of real people." },
+    "tags": [
+      { "id": 10, "name": "biographical" },
+      { "id": 3, "name": "social commentary" }
+    ],
+    "status": { "id": 2, "name": "Inactive" },
+    "stock": { "NoAvailable": 8, "NoOfSold": 67 }
+  },
+  {
+    "id": 39,
+    "title": "The Man Who Chased Horizons",
+    "author": "Oliver Hayes",
+    "year": 2010,
+    "rating": 4,
+    "isbn": "978-0-101010-10-3",
+    "price": 15.25,
+    "image_url": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383",
+    "genre": { "id": 10, "name": "Biography", "description": "Life stories of real people." },
+    "tags": [
+      { "id": 10, "name": "biographical" },
+      { "id": 5, "name": "adventure" }
+    ],
+    "status": { "id": 1, "name": "Active" },
+    "stock": { "NoAvailable": 17, "NoOfSold": 122 }
+  },
+  {
+    "id": 40,
+    "title": "A Life Written in Ink",
+    "author": "Clara Whitmore",
+    "year": 2021,
+    "rating": 5,
+    "isbn": "978-0-101010-10-4",
+    "price": 16.99,
+    "image_url": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
+    "genre": { "id": 10, "name": "Biography", "description": "Life stories of real people." },
+    "tags": [
+      { "id": 10, "name": "biographical" },
+      { "id": 4, "name": "love story" },
+      { "id": 1, "name": "coming-of-age" }
+    ],
+    "status": { "id": 2, "name": "Inactive" },
+    "stock": { "NoAvailable": 6, "NoOfSold": 59 }
+  }
+]
+}

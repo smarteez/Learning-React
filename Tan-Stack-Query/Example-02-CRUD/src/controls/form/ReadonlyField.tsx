@@ -68,6 +68,7 @@ export const ReadonlyField = ({
           rows={rows}
           InputProps={{
             readOnly: true,
+            disabled: true,
           }}
         />
       )}
