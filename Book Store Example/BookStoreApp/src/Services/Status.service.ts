@@ -4,7 +4,6 @@ import type { Status } from "../Schemas/Status.schemas";
 
 export async function GetAllStatus(): Promise<Status[]> {;
   const res = await fetch(Endpoints.status.getAll);
-  console.log(Endpoints.status.getAll)
   if (!res.ok) throw new Error("Failed to load status types");
 
   const json = await res.json();

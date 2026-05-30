@@ -1,0 +1,23 @@
+/* FLEX ROW */
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+/* FLEX COLUMN */
+.col {
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* BOOK COVER IMAGE */
+.book-cover {
+  width: 240px;
+  height: 360px;
+  object-fit: cover;
+  border-radius: 8px;
+}

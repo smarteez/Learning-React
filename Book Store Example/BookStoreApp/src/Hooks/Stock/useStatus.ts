@@ -6,7 +6,7 @@ export function useStatus() {
   return useQuery<Status[]>({
     queryKey: ["status"],
     queryFn: GetAllStatus,
-    //staleTime: 1000 * 60 * 5, // 5 minutes
+    staleTime: 1000 * 60 * 5, // 5 minutes
   });
 }
 

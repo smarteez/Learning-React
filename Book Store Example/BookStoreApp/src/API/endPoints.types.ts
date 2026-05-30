@@ -9,6 +9,10 @@ export const Endpoints = {
     getAll: `${baseUrl}/genres`,
     getById: `${baseUrl}/genres/:id`
   },
+  language: {
+    getAll: `${baseUrl}/languages`,
+    getById: `${baseUrl}/languages/:id`
+  },
   tags: {
     getAll: `${baseUrl}/tags`,
     getById: `${baseUrl}/tags/:id`

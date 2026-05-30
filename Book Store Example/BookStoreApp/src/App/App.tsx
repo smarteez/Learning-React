@@ -1,14 +1,14 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import NavBar from "../Components/NavBar"
-import AppRoutes from "../Routes/AppRoutes";
+import { Outlet } from "@tanstack/react-router";
+import NavBar from "../Components/NavBar";
+
 const queryClient = new QueryClient();
+
 const App = () => {
-
-
   return (
     <QueryClientProvider client={queryClient}>
       <NavBar />
-      <AppRoutes />
+      <Outlet />   {/* TanStack Router renders pages here */}
     </QueryClientProvider>
   );
 };

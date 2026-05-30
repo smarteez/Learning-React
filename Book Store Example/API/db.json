@@ -1,729 +1,2096 @@
 {
-  "genres": [
-    { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
-    { "id": 2, "name": "Dystopian", "description": "Oppressive societies, surveillance, and control." },
-    { "id": 3, "name": "Classic", "description": "Timeless works with enduring cultural value." },
-    { "id": 4, "name": "Romance", "description": "Love, relationships, and emotional connections." },
-    { "id": 5, "name": "Fantasy", "description": "Magical worlds, mythical creatures, epic adventures." },
-    { "id": 6, "name": "Science Fiction", "description": "Speculative futures, technology, and space exploration." },
-    { "id": 7, "name": "Mystery", "description": "Crime-solving, suspense, and hidden truths." },
-    { "id": 8, "name": "Historical", "description": "Stories set in past eras with cultural detail." },
-    { "id": 9, "name": "Thriller", "description": "Fast-paced plots with tension and danger." },
-    { "id": 10, "name": "Biography", "description": "Life stories of real people." }
-  ],
+"genres": [
+  { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+  { "id": 2, "name": "Dystopian", "description": "Oppressive societies, surveillance, and control." },
+  { "id": 3, "name": "Classic", "description": "Timeless works with enduring cultural value." },
+  { "id": 4, "name": "Romance", "description": "Love, relationships, and emotional connections." },
+  { "id": 5, "name": "Fantasy", "description": "Magical worlds, mythical creatures, epic adventures." },
+  { "id": 7, "name": "Mystery", "description": "Crime-solving, suspense, and hidden truths." },
+  { "id": 8, "name": "Historical", "description": "Stories set in past eras with cultural detail." },
+  { "id": 9, "name": "Thriller", "description": "Fast-paced plots with tension and danger." },
+  { "id": 10, "name": "Biography", "description": "Life stories of real people." }
+]
+,
   "tags": [
-    { "id": 1, "name": "coming-of-age" },
-    { "id": 2, "name": "political" },
-    { "id": 3, "name": "social commentary" },
-    { "id": 4, "name": "love story" },
-    { "id": 5, "name": "adventure" },
-    { "id": 6, "name": "magic" },
-    { "id": 7, "name": "space" },
-    { "id": 8, "name": "crime" },
-    { "id": 9, "name": "war" },
-    { "id": 10, "name": "biographical" }
-  ],
+  { "id": 1, "name": "coming-of-age" },
+  { "id": 2, "name": "political" },
+  { "id": 3, "name": "social commentary" },
+  { "id": 4, "name": "love story" },
+  { "id": 5, "name": "adventure" },
+  { "id": 6, "name": "magic" },
+  { "id": 7, "name": "space" },
+  { "id": 8, "name": "crime" },
+  { "id": 9, "name": "war" }
+]
+,
   "status": [
     { "id": 1, "name": "Active" },
     { "id": 2, "name": "Inactive" }
   ],
-  "books": [
-  {
-    "id": 1,
-    "title": "Shadows of the Silent River",
-    "author": "Liam Carter",
-    "year": 2004,
-    "rating": 4,
-    "isbn": "978-0-111111-01-1",
-    "price": 14.99,
-    "image_url": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
-    "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
-    "tags": [
-      { "id": 1, "name": "coming-of-age" },
-      { "id": 3, "name": "social commentary" },
-      { "id": 5, "name": "adventure" }
-    ],
-    "status": { "id": 1, "name": "Active" },
-    "stock": { "NoAvailable": 22, "NoOfSold": 144 }
-  },
-  {
-    "id": 2,
-    "title": "The Last Ember of Dawn",
-    "author": "Aisha Patel",
-    "year": 2012,
-    "rating": 5,
-    "isbn": "978-0-111111-01-2",
-    "price": 16.50,
-    "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
-    "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
-    "tags": [
-      { "id": 4, "name": "love story" },
-      { "id": 1, "name": "coming-of-age" }
-    ],
-    "status": { "id": 2, "name": "Inactive" },
-    "stock": { "NoAvailable": 7, "NoOfSold": 89 }
-  },
-  {
-    "id": 3,
-    "title": "Whispers Beneath the Willow Tree",
-    "author": "Marcus Hale",
-    "year": 2018,
-    "rating": 3,
-    "isbn": "978-0-111111-01-3",
-    "price": 11.25,
-    "image_url": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383",
-    "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
-    "tags": [
-      { "id": 8, "name": "crime" },
-      { "id": 3, "name": "social commentary" },
-      { "id": 9, "name": "war" }
-    ],
-    "status": { "id": 1, "name": "Active" },
-    "stock": { "NoAvailable": 18, "NoOfSold": 102 }
-  },
-  {
-    "id": 4,
-    "title": "The Painted Horizon",
-    "author": "Elena Brooks",
-    "year": 2020,
-    "rating": 4,
-    "isbn": "978-0-111111-01-4",
-    "price": 13.75,
-    "image_url": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
-    "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
-    "tags": [
-      { "id": 5, "name": "adventure" },
-      { "id": 4, "name": "love story" }
-    ],
-    "status": { "id": 2, "name": "Inactive" },
-    "stock": { "NoAvailable": 9, "NoOfSold": 77 }
-  },
-  {
-    "id": 5,
-    "title": "Ashes of the Iron City",
-    "author": "Noah Venter",
-    "year": 1961,
-    "rating": 5,
-    "isbn": "978-0-222222-02-1",
-    "price": 15.99,
-    "image_url": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
-    "genre": { "id": 2, "name": "Dystopian", "description": "Oppressive societies, surveillance, and control." },
-    "tags": [
-      { "id": 2, "name": "political" },
-      { "id": 3, "name": "social commentary" },
-      { "id": 9, "name": "war" }
-    ],
-    "status": { "id": 1, "name": "Active" },
-    "stock": { "NoAvailable": 31, "NoOfSold": 211 }
-  },
-  {
-    "id": 6,
-    "title": "The Glass Republic",
-    "author": "Sofia Mendes",
-    "year": 1974,
-    "rating": 4,
-    "isbn": "978-0-222222-02-2",
-    "price": 12.50,
-    "image_url": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383",
-    "genre": { "id": 2, "name": "Dystopian", "description": "Oppressive societies, surveillance, and control." },
-    "tags": [
-      { "id": 8, "name": "crime" },
-      { "id": 2, "name": "political" }
-    ],
-    "status": { "id": 2, "name": "Inactive" },
-    "stock": { "NoAvailable": 6, "NoOfSold": 134 }
-  },
-  {
-    "id": 7,
-    "title": "Echoes of the Forbidden Zone",
-    "author": "Daniel Cross",
-    "year": 1988,
-    "rating": 3,
-    "isbn": "978-0-222222-02-3",
-    "price": 14.25,
-    "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
-    "genre": { "id": 2, "name": "Dystopian", "description": "Oppressive societies, surveillance, and control." },
-    "tags": [
-      { "id": 5, "name": "adventure" },
-      { "id": 7, "name": "space" },
-      { "id": 3, "name": "social commentary" }
-    ],
-    "status": { "id": 1, "name": "Active" },
-    "stock": { "NoAvailable": 19, "NoOfSold": 98 }
-  },
-  {
-    "id": 8,
-    "title": "The Silent Regime",
-    "author": "Hannah Lee",
-    "year": 1999,
-    "rating": 2,
-    "isbn": "978-0-222222-02-4",
-    "price": 10.99,
-    "image_url": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383",
-    "genre": { "id": 2, "name": "Dystopian", "description": "Oppressive societies, surveillance, and control." },
-    "tags": [
-      { "id": 9, "name": "war" },
-      { "id": 2, "name": "political" }
-    ],
-    "status": { "id": 2, "name": "Inactive" },
-    "stock": { "NoAvailable": 4, "NoOfSold": 63 }
-  },
-  {
-    "id": 9,
-    "title": "The Lantern Keeper",
-    "author": "Oliver Grant",
-    "year": 1938,
-    "rating": 5,
-    "isbn": "978-0-333333-03-1",
-    "price": 17.50,
-    "image_url": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
-    "genre": { "id": 3, "name": "Classic", "description": "Timeless works with enduring cultural value." },
-    "tags": [
-      { "id": 1, "name": "coming-of-age" },
-      { "id": 10, "name": "biographical" }
-    ],
-    "status": { "id": 1, "name": "Active" },
-    "stock": { "NoAvailable": 27, "NoOfSold": 302 }
-  },
-  {
-    "id": 10,
-    "title": "Winds Over the Old Harbor",
-    "author": "Clara Jennings",
-    "year": 1944,
-    "rating": 4,
-    "isbn": "978-0-333333-03-2",
-    "price": 13.99,
-    "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
-    "genre": { "id": 3, "name": "Classic", "description": "Timeless works with enduring cultural value." },
-    "tags": [
-      { "id": 4, "name": "love story" },
-      { "id": 9, "name": "war" }
-    ],
-    "status": { "id": 2, "name": "Inactive" },
-    "stock": { "NoAvailable": 5, "NoOfSold": 141 }
-  },
-  {
-    "id": 11,
-    "title": "The Orchard of Forgotten Tales",
-    "author": "Samuel Rhodes",
-    "year": 1952,
-    "rating": 3,
-    "isbn": "978-0-333333-03-3",
-    "price": 12.25,
-    "image_url": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
-    "genre": { "id": 3, "name": "Classic", "description": "Timeless works with enduring cultural value." },
-    "tags": [
-      { "id": 5, "name": "adventure" },
-      { "id": 1, "name": "coming-of-age" },
-      { "id": 3, "name": "social commentary" }
-    ],
-    "status": { "id": 1, "name": "Active" },
-    "stock": { "NoAvailable": 14, "NoOfSold": 112 }
-  },
-  {
-    "id": 12,
-    "title": "The Marble Garden",
-    "author": "Evelyn Hart",
-    "year": 1966,
-    "rating": 2,
-    "isbn": "978-0-333333-03-4",
-    "price": 11.50,
-    "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
-    "genre": { "id": 3, "name": "Classic", "description": "Timeless works with enduring cultural value." },
-    "tags": [
-      { "id": 10, "name": "biographical" },
-      { "id": 4, "name": "love story" }
-    ],
-    "status": { "id": 2, "name": "Inactive" },
-    "stock": { "NoAvailable": 3, "NoOfSold": 58 }
-  },
-  {
-    "id": 13,
-    "title": "Letters from a Crimson Heart",
-    "author": "Grace Holloway",
-    "year": 2011,
-    "rating": 4,
-    "isbn": "978-0-444444-04-1",
-    "price": 14.50,
-    "image_url": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383",
-    "genre": { "id": 4, "name": "Romance", "description": "Love, relationships, and emotional connections." },
-    "tags": [
-      { "id": 4, "name": "love story" },
-      { "id": 1, "name": "coming-of-age" }
-    ],
-    "status": { "id": 1, "name": "Active" },
-    "stock": { "NoAvailable": 21, "NoOfSold": 167 }
-  },
-  {
-    "id": 14,
-    "title": "The Rose of Winter Avenue",
-    "author": "Isabella Moore",
-    "year": 2016,
-    "rating": 5,
-    "isbn": "978-0-444444-04-2",
-    "price": 16.99,
-    "image_url": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
-    "genre": { "id": 4, "name": "Romance", "description": "Love, relationships, and emotional connections." },
-    "tags": [
-      { "id": 4, "name": "love story" },
-      { "id": 5, "name": "adventure" },
-      { "id": 3, "name": "social commentary" }
-    ],
-    "status": { "id": 2, "name": "Inactive" },
-    "stock": { "NoAvailable": 8, "NoOfSold": 94 }
-  },
-  {
-    "id": 15,
-    "title": "A Promise in the Falling Snow",
-    "author": "Julian Marks",
-    "year": 2019,
-    "rating": 3,
-    "isbn": "978-0-444444-04-3",
-    "price": 12.75,
-    "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
-    "genre": { "id": 4, "name": "Romance", "description": "Love, relationships, and emotional connections." },
-    "tags": [
-      { "id": 4, "name": "love story" },
-      { "id": 10, "name": "biographical" }
-    ],
-    "status": { "id": 1, "name": "Active" },
-    "stock": { "NoAvailable": 17, "NoOfSold": 121 }
-  },
-  {
-    "id": 16,
-    "title": "The Velvet Moon Serenade",
-    "author": "Amelia Frost",
-    "year": 2022,
-    "rating": 4,
-    "isbn": "978-0-444444-04-4",
-    "price": 15.25,
-    "image_url": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383",
-    "genre": { "id": 4, "name": "Romance", "description": "Love, relationships, and emotional connections." },
-    "tags": [
-      { "id": 4, "name": "love story" },
-      { "id": 1, "name": "coming-of-age" },
-      { "id": 5, "name": "adventure" }
-    ],
-    "status": { "id": 2, "name": "Inactive" },
-    "stock": { "NoAvailable": 6, "NoOfSold": 73 }
-  },
-  {
-    "id": 17,
-    "title": "The Dragon of Silver Hollow",
-    "author": "Rowan Blake",
-    "year": 2007,
-    "rating": 5,
-    "isbn": "978-0-555555-05-1",
-    "price": 18.99,
-    "image_url": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
-    "genre": { "id": 5, "name": "Fantasy", "description": "Magical worlds, mythical creatures, epic adventures." },
-    "tags": [
-      { "id": 6, "name": "magic" },
-      { "id": 5, "name": "adventure" },
-      { "id": 7, "name": "space" }
-    ],
-    "status": { "id": 1, "name": "Active" },
-    "stock": { "NoAvailable": 29, "NoOfSold": 188 }
-  },
-  {
-    "id": 18,
-    "title": "The Crown of Fallen Stars",
-    "author": "Serena Vale",
-    "year": 2013,
-    "rating": 4,
-    "isbn": "978-0-555555-05-2",
-    "price": 17.25,
-    "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
-    "genre": { "id": 5, "name": "Fantasy", "description": "Magical worlds, mythical creatures, epic adventures." },
-    "tags": [
-      { "id": 6, "name": "magic" },
-      { "id": 5, "name": "adventure" }
-    ],
-    "status": { "id": 2, "name": "Inactive" },
-    "stock": { "NoAvailable": 11, "NoOfSold": 97 }
-  },
-  {
-    "id": 19,
-    "title": "The Serpent of Emberfall",
-    "author": "Caleb Thorn",
-    "year": 2017,
-    "rating": 3,
-    "isbn": "978-0-555555-05-3",
-    "price": 13.99,
-    "image_url": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383",
-    "genre": { "id": 5, "name": "Fantasy", "description": "Magical worlds, mythical creatures, epic adventures." },
-    "tags": [
-      { "id": 6, "name": "magic" },
-      { "id": 7, "name": "space" },
-      { "id": 5, "name": "adventure" }
-    ],
-    "status": { "id": 1, "name": "Active" },
-    "stock": { "NoAvailable": 23, "NoOfSold": 142 }
-  },
-  {
-    "id": 20,
-    "title": "The Oracle of Hollowspire",
-    "author": "Mira Ellington",
-    "year": 2021,
-    "rating": 4,
-    "isbn": "978-0-555555-05-4",
-    "price": 15.50,
-    "image_url": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
-    "genre": { "id": 5, "name": "Fantasy", "description": "Magical worlds, mythical creatures, epic adventures." },
-    "tags": [
-      { "id": 6, "name": "magic" },
-      { "id": 1, "name": "coming-of-age" },
-      { "id": 5, "name": "adventure" }
-    ],
-    "status": { "id": 2, "name": "Inactive" },
-    "stock": { "NoAvailable": 7, "NoOfSold": 66 }
-  },
-  {
-    "id": 21,
-    "title": "Voyagers of the Infinite Path",
-    "author": "Ethan Ward",
-    "year": 2009,
-    "rating": 5,
-    "isbn": "978-0-666666-06-1",
-    "price": 18.75,
-    "image_url": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f",
-    "genre": { "id": 6, "name": "Science Fiction", "description": "Speculative futures, technology, and space exploration." },
-    "tags": [
-      { "id": 7, "name": "space" },
-      { "id": 5, "name": "adventure" },
-      { "id": 3, "name": "social commentary" }
-    ],
-    "status": { "id": 1, "name": "Active" },
-    "stock": { "NoAvailable": 28, "NoOfSold": 201 }
-  },
-  {
-    "id": 22,
-    "title": "The Quantum Paradox",
-    "author": "Nadia Rivers",
-    "year": 2014,
-    "rating": 4,
-    "isbn": "978-0-666666-06-2",
-    "price": 16.50,
-    "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
-    "genre": { "id": 6, "name": "Science Fiction", "description": "Speculative futures, technology, and space exploration." },
-    "tags": [
-      { "id": 7, "name": "space" },
-      { "id": 2, "name": "political" }
-    ],
-    "status": { "id": 2, "name": "Inactive" },
-    "stock": { "NoAvailable": 9, "NoOfSold": 88 }
-  },
-  {
-    "id": 23,
-    "title": "The Last Starborn",
-    "author": "Jaxon Reid",
-    "year": 2018,
-    "rating": 3,
-    "isbn": "978-0-666666-06-3",
-    "price": 14.99,
-    "image_url": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383",
-    "genre": { "id": 6, "name": "Science Fiction", "description": "Speculative futures, technology, and space exploration." },
-    "tags": [
-      { "id": 7, "name": "space" },
-      { "id": 5, "name": "adventure" },
-      { "id": 8, "name": "crime" }
-    ],
-    "status": { "id": 1, "name": "Active" },
-    "stock": { "NoAvailable": 16, "NoOfSold": 109 }
-  },
-  {
-    "id": 24,
-    "title": "Chronicles of the Nebula Gate",
-    "author": "Talia Monroe",
-    "year": 2022,
-    "rating": 4,
-    "isbn": "978-0-666666-06-4",
-    "price": 17.99,
-    "image_url": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
-    "genre": { "id": 6, "name": "Science Fiction", "description": "Speculative futures, technology, and space exploration." },
-    "tags": [
-      { "id": 7, "name": "space" },
-      { "id": 3, "name": "social commentary" },
-      { "id": 5, "name": "adventure" }
-    ],
-    "status": { "id": 2, "name": "Inactive" },
-    "stock": { "NoAvailable": 5, "NoOfSold": 72 }
-  },
-  {
-    "id": 25,
-    "title": "The Clockmaker’s Secret",
-    "author": "Harper Quinn",
-    "year": 2003,
-    "rating": 4,
-    "isbn": "978-0-777777-07-1",
-    "price": 13.50,
-    "image_url": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383",
-    "genre": { "id": 7, "name": "Mystery", "description": "Crime-solving, suspense, and hidden truths." },
-    "tags": [
-      { "id": 8, "name": "crime" },
-      { "id": 5, "name": "adventure" }
-    ],
-    "status": { "id": 1, "name": "Active" },
-    "stock": { "NoAvailable": 20, "NoOfSold": 131 }
-  },
-  {
-    "id": 26,
-    "title": "The Vanishing Portrait",
-    "author": "Lydia Snow",
-    "year": 2009,
-    "rating": 3,
-    "isbn": "978-0-777777-07-2",
-    "price": 12.99,
-    "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
-    "genre": { "id": 7, "name": "Mystery", "description": "Crime-solving, suspense, and hidden truths." },
-    "tags": [
-      { "id": 8, "name": "crime" },
-      { "id": 3, "name": "social commentary" }
-    ],
-    "status": { "id": 2, "name": "Inactive" },
-    "stock": { "NoAvailable": 6, "NoOfSold": 84 }
-  },
-  {
-    "id": 27,
-    "title": "The Whispering Key",
-    "author": "Damian Cole",
-    "year": 2015,
-    "rating": 4,
-    "isbn": "978-0-777777-07-3",
-    "price": 14.25,
-    "image_url": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
-    "genre": { "id": 7, "name": "Mystery", "description": "Crime-solving, suspense, and hidden truths." },
-    "tags": [
-      { "id": 8, "name": "crime" },
-      { "id": 5, "name": "adventure" },
-      { "id": 9, "name": "war" }
-    ],
-    "status": { "id": 1, "name": "Active" },
-    "stock": { "NoAvailable": 18, "NoOfSold": 119 }
-  },
-  {
-    "id": 28,
-    "title": "The Midnight Cipher",
-    "author": "Riley Stone",
-    "year": 2021,
-    "rating": 3,
-    "isbn": "978-0-777777-07-4",
-    "price": 13.75,
-    "image_url": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383",
-    "genre": { "id": 7, "name": "Mystery", "description": "Crime-solving, suspense, and hidden truths." },
-    "tags": [
-      { "id": 8, "name": "crime" },
-      { "id": 2, "name": "political" }
-    ],
-    "status": { "id": 2, "name": "Inactive" },
-    "stock": { "NoAvailable": 7, "NoOfSold": 73 }
-  },
-  {
-    "id": 29,
-    "title": "The Empire of Golden Sands",
-    "author": "Victoria Hale",
-    "year": 1998,
-    "rating": 4,
-    "isbn": "978-0-888888-08-1",
-    "price": 15.99,
-    "image_url": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
-    "genre": { "id": 8, "name": "Historical", "description": "Stories set in past eras with cultural detail." },
-    "tags": [
-      { "id": 9, "name": "war" },
-      { "id": 10, "name": "biographical" }
-    ],
-    "status": { "id": 1, "name": "Active" },
-    "stock": { "NoAvailable": 24, "NoOfSold": 178 }
-  },
-  {
-    "id": 30,
-    "title": "The Silk Road Letters",
-    "author": "Adrian Wells",
-    "year": 2005,
-    "rating": 3,
-    "isbn": "978-0-888888-08-2",
-    "price": 13.50,
-    "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
-    "genre": { "id": 8, "name": "Historical", "description": "Stories set in past eras with cultural detail." },
-    "tags": [
-      { "id": 10, "name": "biographical" },
-      { "id": 3, "name": "social commentary" }
-    ],
-    "status": { "id": 2, "name": "Inactive" },
-    "stock": { "NoAvailable": 5, "NoOfSold": 69 }
-  },
-  {
-    "id": 31,
-    "title": "The Crimson Dynasty",
-    "author": "Helena Cross",
-    "year": 2010,
-    "rating": 4,
-    "isbn": "978-0-888888-08-3",
-    "price": 14.99,
-    "image_url": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
-    "genre": { "id": 8, "name": "Historical", "description": "Stories set in past eras with cultural detail." },
-    "tags": [
-      { "id": 9, "name": "war" },
-      { "id": 5, "name": "adventure" },
-      { "id": 1, "name": "coming-of-age" }
-    ],
-    "status": { "id": 1, "name": "Active" },
-    "stock": { "NoAvailable": 19, "NoOfSold": 133 }
-  },
-  {
-    "id": 32,
-    "title": "The Archivist of Old Kingdoms",
-    "author": "Felix Monroe",
-    "year": 2018,
-    "rating": 3,
-    "isbn": "978-0-888888-08-4",
-    "price": 12.99,
-    "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
-    "genre": { "id": 8, "name": "Historical", "description": "Stories set in past eras with cultural detail." },
-    "tags": [
-      { "id": 10, "name": "biographical" },
-      { "id": 3, "name": "social commentary" }
-    ],
-    "status": { "id": 2, "name": "Inactive" },
-    "stock": { "NoAvailable": 6, "NoOfSold": 81 }
-  },
-  {
-    "id": 33,
-    "title": "The Shadow of the Black Harbor",
-    "author": "Gavin Pierce",
-    "year": 2006,
-    "rating": 4,
-    "isbn": "978-0-999999-09-1",
-    "price": 15.50,
-    "image_url": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383",
-    "genre": { "id": 9, "name": "Thriller", "description": "Fast-paced plots with tension and danger." },
-    "tags": [
-      { "id": 8, "name": "crime" },
-      { "id": 9, "name": "war" }
-    ],
-    "status": { "id": 1, "name": "Active" },
-    "stock": { "NoAvailable": 22, "NoOfSold": 147 }
-  },
-  {
-    "id": 34,
-    "title": "The Silent Corridor",
-    "author": "Mason Drake",
-    "year": 2011,
-    "rating": 3,
-    "isbn": "978-0-999999-09-2",
-    "price": 13.99,
-    "image_url": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
-    "genre": { "id": 9, "name": "Thriller", "description": "Fast-paced plots with tension and danger." },
-    "tags": [
-      { "id": 8, "name": "crime" },
-      { "id": 3, "name": "social commentary" }
-    ],
-    "status": { "id": 2, "name": "Inactive" },
-    "stock": { "NoAvailable": 7, "NoOfSold": 92 }
-  },
-  {
-    "id": 35,
-    "title": "The Edge of Midnight",
-    "author": "Sienna Clarke",
-    "year": 2017,
-    "rating": 4,
-    "isbn": "978-0-999999-09-3",
-    "price": 16.25,
-    "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
-    "genre": { "id": 9, "name": "Thriller", "description": "Fast-paced plots with tension and danger." },
-    "tags": [
-      { "id": 8, "name": "crime" },
-      { "id": 5, "name": "adventure" },
-      { "id": 9, "name": "war" }
-    ],
-    "status": { "id": 1, "name": "Active" },
-    "stock": { "NoAvailable": 18, "NoOfSold": 128 }
-  },
-  {
-    "id": 36,
-    "title": "The Broken Signal",
-    "author": "Derek Vaughn",
-    "year": 2022,
-    "rating": 3,
-    "isbn": "978-0-999999-09-4",
-    "price": 14.50,
-    "image_url": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383",
-    "genre": { "id": 9, "name": "Thriller", "description": "Fast-paced plots with tension and danger." },
-    "tags": [
-      { "id": 8, "name": "crime" },
-      { "id": 2, "name": "political" }
-    ],
-    "status": { "id": 2, "name": "Inactive" },
-    "stock": { "NoAvailable": 5, "NoOfSold": 71 }
-  },
-  {
-    "id": 37,
-    "title": "The Journey of a Quiet Soul",
-    "author": "Nathaniel Brooks",
-    "year": 1995,
-    "rating": 4,
-    "isbn": "978-0-101010-10-1",
-    "price": 14.99,
-    "image_url": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
-    "genre": { "id": 10, "name": "Biography", "description": "Life stories of real people." },
-    "tags": [
-      { "id": 10, "name": "biographical" },
-      { "id": 1, "name": "coming-of-age" }
-    ],
-    "status": { "id": 1, "name": "Active" },
-    "stock": { "NoAvailable": 26, "NoOfSold": 154 }
-  },
-  {
-    "id": 38,
-    "title": "Footsteps Through Time",
-    "author": "Marianne Ellis",
-    "year": 2002,
-    "rating": 3,
-    "isbn": "978-0-101010-10-2",
-    "price": 13.50,
-    "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
-    "genre": { "id": 10, "name": "Biography", "description": "Life stories of real people." },
-    "tags": [
-      { "id": 10, "name": "biographical" },
-      { "id": 3, "name": "social commentary" }
-    ],
-    "status": { "id": 2, "name": "Inactive" },
-    "stock": { "NoAvailable": 8, "NoOfSold": 67 }
-  },
-  {
-    "id": 39,
-    "title": "The Man Who Chased Horizons",
-    "author": "Oliver Hayes",
-    "year": 2010,
-    "rating": 4,
-    "isbn": "978-0-101010-10-3",
-    "price": 15.25,
-    "image_url": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383",
-    "genre": { "id": 10, "name": "Biography", "description": "Life stories of real people." },
-    "tags": [
-      { "id": 10, "name": "biographical" },
-      { "id": 5, "name": "adventure" }
-    ],
-    "status": { "id": 1, "name": "Active" },
-    "stock": { "NoAvailable": 17, "NoOfSold": 122 }
-  },
-  {
-    "id": 40,
-    "title": "A Life Written in Ink",
-    "author": "Clara Whitmore",
-    "year": 2021,
-    "rating": 5,
-    "isbn": "978-0-101010-10-4",
-    "price": 16.99,
-    "image_url": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
-    "genre": { "id": 10, "name": "Biography", "description": "Life stories of real people." },
-    "tags": [
-      { "id": 10, "name": "biographical" },
-      { "id": 4, "name": "love story" },
-      { "id": 1, "name": "coming-of-age" }
-    ],
-    "status": { "id": 2, "name": "Inactive" },
-    "stock": { "NoAvailable": 6, "NoOfSold": 59 }
-  }
+"country": [
+  { "id": 1, "name": "Nigeria" },
+  { "id": 2, "name": "Denmark" },
+  { "id": 3, "name": "Italy" },
+  { "id": 4, "name": "Iraq" },
+  { "id": 5, "name": "Iceland" },
+  { "id": 6, "name": "United Kingdom" },
+  { "id": 7, "name": "France" },
+  { "id": 8, "name": "Ireland" },
+  { "id": 9, "name": "Argentina" },
+  { "id": 10, "name": "Spain" },
+  { "id": 11, "name": "Russia" },
+  { "id": 12, "name": "United States" },
+  { "id": 13, "name": "Greece" },
+  { "id": 14, "name": "Norway" },
+  { "id": 15, "name": "Brazil" },
+  { "id": 16, "name": "Algeria" },
+  { "id": 17, "name": "Romania" },
+  { "id": 18, "name": "Czechoslovakia" },
+  { "id": 19, "name": "India" },
+  { "id": 20, "name": "Sweden" },
+  { "id": 21, "name": "China" },
+  { "id": 22, "name": "Egypt" },
+  { "id": 23, "name": "Germany" },
+  { "id": 24, "name": "Japan" },
+  { "id": 25, "name": "Austria" },
+  { "id": 26, "name": "Persia" },
+  { "id": 27, "name": "Roman Empire" },
+  { "id": 28, "name": "Mexico" }
+],
+"languages": [
+  { "id": 1, "name": "English" },
+  { "id": 2, "name": "Danish" },
+  { "id": 3, "name": "Italian" },
+  { "id": 4, "name": "Akkadian" },
+  { "id": 5, "name": "Hebrew" },
+  { "id": 6, "name": "Arabic" },
+  { "id": 7, "name": "Old Norse" },
+  { "id": 8, "name": "French" },
+  { "id": 9, "name": "Spanish" },
+  { "id": 10, "name": "German" },
+  { "id": 11, "name": "Greek" },
+  { "id": 12, "name": "Portuguese" },
+  { "id": 13, "name": "Norwegian" },
+  { "id": 14, "name": "Sanskrit" },
+  { "id": 15, "name": "Swedish" },
+  { "id": 16, "name": "Chinese" },
+  { "id": 17, "name": "Japanese" },
+  { "id": 18, "name": "Latin" },
+  { "id": 19, "name": "Persian" }
+],
+"books":[
+{
+  "id": 1,
+  "title": "Things Fall Apart",
+  "author": "Chinua Achebe",
+  "year": 1958,
+  "rating": 4.7,
+  "isbn": "978-1-00001-0001",
+  "price": 149.00,
+  "image_url": "images/things-fall-apart.jpg",
+  "genre": { "id": 3, "name": "Classic", "description": "Timeless works with enduring cultural value." },
+  "tags": [
+    { "id": 3, "name": "social commentary" },
+    { "id": 1, "name": "coming-of-age" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 22, "NoOfSold": 144 },
+  "country": { "id": 1, "name": "Nigeria" },
+  "language": { "id": 1, "name": "English" },
+  "link": "https://en.wikipedia.org/wiki/Things_Fall_Apart",
+  "pages": 209
+},
+{
+  "id": 2,
+  "title": "Fairy tales",
+  "author": "Hans Christian Andersen",
+  "year": 1836,
+  "rating": 4.5,
+  "isbn": "978-1-00001-0002",
+  "price": 249.00,
+  "image_url": "images/fairy-tales.jpg",
+  "genre": { "id": 5, "name": "Fantasy", "description": "Magical worlds, mythical creatures, epic adventures." },
+  "tags": [
+    { "id": 6, "name": "magic" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 30, "NoOfSold": 210 },
+  "country": { "id": 2, "name": "Denmark" },
+  "language": { "id": 2, "name": "Danish" },
+  "link": "https://en.wikipedia.org/wiki/Fairy_Tales_Told_for_Children._First_Collection.",
+  "pages": 784
+},
+{
+  "id": 3,
+  "title": "The Divine Comedy",
+  "author": "Dante Alighieri",
+  "year": 1315,
+  "rating": 4.9,
+  "isbn": "978-1-00001-0003",
+  "price": 299.00,
+  "image_url": "images/the-divine-comedy.jpg",
+  "genre": { "id": 3, "name": "Classic", "description": "Timeless works with enduring cultural value." },
+  "tags": [
+    { "id": 3, "name": "social commentary" },
+    { "id": 9, "name": "war" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 18, "NoOfSold": 320 },
+  "country": { "id": 3, "name": "Italy" },
+  "language": { "id": 3, "name": "Italian" },
+  "link": "https://en.wikipedia.org/wiki/Divine_Comedy",
+  "pages": 928
+},
+{
+  "id": 4,
+  "title": "The Epic Of Gilgamesh",
+  "author": "Unknown",
+  "year": 1700,
+  "rating": 4.6,
+  "isbn": "978-1-00001-0004",
+  "price": 129.00,
+  "image_url": "images/the-epic-of-gilgamesh.jpg",
+  "genre": { "id": 8, "name": "Historical", "description": "Stories set in past eras with cultural detail." },
+  "tags": [
+    { "id": 5, "name": "adventure" },
+    { "id": 9, "name": "war" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 25, "NoOfSold": 280 },
+  "country": { "id": 4, "name": "Iraq" },
+  "language": { "id": 4, "name": "Akkadian" },
+  "link": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh",
+  "pages": 160
+},
+{
+  "id": 5,
+  "title": "The Book Of Job",
+  "author": "Unknown",
+  "year": 600,
+  "rating": 4.4,
+  "isbn": "978-1-00001-0005",
+  "price": 139.00,
+  "image_url": "images/the-book-of-job.jpg",
+  "genre": { "id": 3, "name": "Classic", "description": "Timeless works with enduring cultural value." },
+  "tags": [
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 20, "NoOfSold": 190 },
+  "country": { "id": 5, "name": "Achaemenid Empire" },
+  "language": { "id": 5, "name": "Hebrew" },
+  "link": "https://en.wikipedia.org/wiki/Book_of_Job",
+  "pages": 176
+},
+{
+  "id": 6,
+  "title": "One Thousand and One Nights",
+  "author": "Unknown",
+  "year": 1200,
+  "rating": 4.8,
+  "isbn": "978-1-00001-0006",
+  "price": 189.00,
+  "image_url": "images/one-thousand-and-one-nights.jpg",
+  "genre": { "id": 5, "name": "Fantasy", "description": "Magical worlds, mythical creatures, epic adventures." },
+  "tags": [
+    { "id": 6, "name": "magic" },
+    { "id": 5, "name": "adventure" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 28, "NoOfSold": 330 },
+  "country": { "id": 4, "name": "Iraq" },
+  "language": { "id": 6, "name": "Arabic" },
+  "link": "https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights",
+  "pages": 288
+},
+{
+  "id": 7,
+  "title": "Njál's Saga",
+  "author": "Unknown",
+  "year": 1350,
+  "rating": 4.3,
+  "isbn": "978-1-00001-0007",
+  "price": 159.00,
+  "image_url": "images/njals-saga.jpg",
+  "genre": { "id": 8, "name": "Historical", "description": "Stories set in past eras with cultural detail." },
+  "tags": [
+    { "id": 9, "name": "war" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 16, "NoOfSold": 140 },
+  "country": { "id": 5, "name": "Iceland" },
+  "language": { "id": 7, "name": "Old Norse" },
+  "link": "https://en.wikipedia.org/wiki/Nj%C3%A1ls_saga",
+  "pages": 384
+},
+{
+  "id": 8,
+  "title": "Pride and Prejudice",
+  "author": "Jane Austen",
+  "year": 1813,
+  "rating": 4.8,
+  "isbn": "978-1-00001-0008",
+  "price": 129.00,
+  "image_url": "images/pride-and-prejudice.jpg",
+  "genre": { "id": 4, "name": "Romance", "description": "Love, relationships, and emotional connections." },
+  "tags": [
+    { "id": 4, "name": "love story" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 40, "NoOfSold": 520 },
+  "country": { "id": 6, "name": "United Kingdom" },
+  "language": { "id": 1, "name": "English" },
+  "link": "https://en.wikipedia.org/wiki/Pride_and_Prejudice",
+  "pages": 226
+},
+{
+  "id": 9,
+  "title": "Le Père Goriot",
+  "author": "Honoré de Balzac",
+  "year": 1835,
+  "rating": 4.4,
+  "isbn": "978-1-00001-0009",
+  "price": 159.00,
+  "image_url": "images/le-pere-goriot.jpg",
+  "genre": { "id": 3, "name": "Classic", "description": "Timeless works with enduring cultural value." },
+  "tags": [
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 22, "NoOfSold": 260 },
+  "country": { "id": 7, "name": "France" },
+  "language": { "id": 8, "name": "French" },
+  "link": "https://en.wikipedia.org/wiki/Le_P%C3%A8re_Goriot",
+  "pages": 443
+},
+{
+  "id": 10,
+  "title": "Molloy, Malone Dies, The Unnamable, the trilogy",
+  "author": "Samuel Beckett",
+  "year": 1952,
+  "rating": 4.1,
+  "isbn": "978-1-00001-0010",
+  "price": 139.00,
+  "image_url": "images/molloy-malone-dies-the-unnamable.jpg",
+  "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+  "tags": [
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 18, "NoOfSold": 200 },
+  "country": { "id": 8, "name": "Ireland" },
+  "language": { "id": 8, "name": "French" },
+  "link": "https://en.wikipedia.org/wiki/Molloy_(novel)",
+  "pages": 256
+},
+{
+  "id": 11,
+  "title": "The Decameron",
+  "author": "Giovanni Boccaccio",
+  "year": 1351,
+  "rating": 4.5,
+  "isbn": "978-1-00001-0011",
+  "price": 299.00,
+  "image_url": "images/the-decameron.jpg",
+  "genre": { "id": 3, "name": "Classic", "description": "Timeless works with enduring cultural value." },
+  "tags": [
+    { "id": 3, "name": "social commentary" },
+    { "id": 5, "name": "adventure" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 20, "NoOfSold": 310 },
+  "country": { "id": 3, "name": "Italy" },
+  "language": { "id": 3, "name": "Italian" },
+  "link": "https://en.wikipedia.org/wiki/The_Decameron",
+  "pages": 1024
+},
+{
+  "id": 12,
+  "title": "Ficciones",
+  "author": "Jorge Luis Borges",
+  "year": 1965,
+  "rating": 4.7,
+  "isbn": "978-1-00001-0012",
+  "price": 129.00,
+  "image_url": "images/ficciones.jpg",
+  "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+  "tags": [
+    { "id": 7, "name": "space" },
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 26, "NoOfSold": 280 },
+  "country": { "id": 9, "name": "Argentina" },
+  "language": { "id": 9, "name": "Spanish" },
+  "link": "https://en.wikipedia.org/wiki/Ficciones",
+  "pages": 224
+},
+{
+  "id": 13,
+  "title": "Wuthering Heights",
+  "author": "Emily Brontë",
+  "year": 1847,
+  "rating": 4.6,
+  "isbn": "978-1-00001-0013",
+  "price": 159.00,
+  "image_url": "images/wuthering-heights.jpg",
+  "genre": { "id": 4, "name": "Romance", "description": "Love, relationships, and emotional connections." },
+  "tags": [
+    { "id": 4, "name": "love story" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 34, "NoOfSold": 410 },
+  "country": { "id": 6, "name": "United Kingdom" },
+  "language": { "id": 1, "name": "English" },
+  "link": "https://en.wikipedia.org/wiki/Wuthering_Heights",
+  "pages": 342
+},
+{
+  "id": 14,
+  "title": "The Stranger",
+  "author": "Albert Camus",
+  "year": 1942,
+  "rating": 4.4,
+  "isbn": "978-1-00001-0014",
+  "price": 129.00,
+  "image_url": "images/l-etranger.jpg",
+  "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+  "tags": [
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 22, "NoOfSold": 260 },
+  "country": { "id": 16, "name": "Algeria" },
+  "language": { "id": 8, "name": "French" },
+  "link": "https://en.wikipedia.org/wiki/The_Stranger_(novel)",
+  "pages": 185
+},
+{
+  "id": 15,
+  "title": "Poems",
+  "author": "Paul Celan",
+  "year": 1952,
+  "rating": 4.2,
+  "isbn": "978-1-00001-0015",
+  "price": 119.00,
+  "image_url": "images/poems-paul-celan.jpg",
+  "genre": { "id": 10, "name": "Biography", "description": "Life stories of real people." },
+  "tags": [
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 18, "NoOfSold": 150 },
+  "country": { "id": 17, "name": "Romania" },
+  "language": { "id": 10, "name": "German" },
+  "link": "",
+  "pages": 320
+},
+{
+  "id": 16,
+  "title": "Journey to the End of the Night",
+  "author": "Louis-Ferdinand Céline",
+  "year": 1932,
+  "rating": 4.3,
+  "isbn": "978-1-00001-0016",
+  "price": 169.00,
+  "image_url": "images/voyage-au-bout-de-la-nuit.jpg",
+  "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+  "tags": [
+    { "id": 3, "name": "social commentary" },
+    { "id": 9, "name": "war" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 20, "NoOfSold": 230 },
+  "country": { "id": 7, "name": "France" },
+  "language": { "id": 8, "name": "French" },
+  "link": "https://en.wikipedia.org/wiki/Journey_to_the_End_of_the_Night",
+  "pages": 505
+},
+{
+  "id": 17,
+  "title": "Don Quijote De La Mancha",
+  "author": "Miguel de Cervantes",
+  "year": 1610,
+  "rating": 4.8,
+  "isbn": "978-1-00001-0017",
+  "price": 229.00,
+  "image_url": "images/don-quijote-de-la-mancha.jpg",
+  "genre": { "id": 3, "name": "Classic", "description": "Timeless works with enduring cultural value." },
+  "tags": [
+    { "id": 5, "name": "adventure" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 28, "NoOfSold": 390 },
+  "country": { "id": 10, "name": "Spain" },
+  "language": { "id": 9, "name": "Spanish" },
+  "link": "https://en.wikipedia.org/wiki/Don_Quixote",
+  "pages": 1056
+},
+{
+  "id": 18,
+  "title": "The Canterbury Tales",
+  "author": "Geoffrey Chaucer",
+  "year": 1450,
+  "rating": 4.4,
+  "isbn": "978-1-00001-0018",
+  "price": 189.00,
+  "image_url": "images/the-canterbury-tales.jpg",
+  "genre": { "id": 3, "name": "Classic", "description": "Timeless works with enduring cultural value." },
+  "tags": [
+    { "id": 5, "name": "adventure" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 24, "NoOfSold": 300 },
+  "country": { "id": 13, "name": "England" },
+  "language": { "id": 1, "name": "English" },
+  "link": "https://en.wikipedia.org/wiki/The_Canterbury_Tales",
+  "pages": 544
+},
+{
+  "id": 19,
+  "title": "Stories",
+  "author": "Anton Chekhov",
+  "year": 1886,
+  "rating": 4.3,
+  "isbn": "978-1-00001-0019",
+  "price": 129.00,
+  "image_url": "images/stories-of-anton-chekhov.jpg",
+  "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+  "tags": [
+    { "id": 8, "name": "crime" },
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 20, "NoOfSold": 210 },
+  "country": { "id": 11, "name": "Russia" },
+  "language": { "id": 10, "name": "Russian" },
+  "link": "https://en.wikipedia.org/wiki/List_of_short_stories_by_Anton_Chekhov",
+  "pages": 194
+},
+{
+  "id": 20,
+  "title": "Nostromo",
+  "author": "Joseph Conrad",
+  "year": 1904,
+  "rating": 4.2,
+  "isbn": "978-1-00001-0020",
+  "price": 159.00,
+  "image_url": "images/nostromo.jpg",
+  "genre": { "id": 9, "name": "Thriller", "description": "Fast-paced plots with tension and danger." },
+  "tags": [
+    { "id": 8, "name": "crime" },
+    { "id": 2, "name": "political" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 18, "NoOfSold": 190 },
+  "country": { "id": 6, "name": "United Kingdom" },
+  "language": { "id": 1, "name": "English" },
+  "link": "https://en.wikipedia.org/wiki/Nostromo",
+  "pages": 320
+},
+{
+  "id": 21,
+  "title": "Great Expectations",
+  "author": "Charles Dickens",
+  "year": 1861,
+  "rating": 4.6,
+  "isbn": "978-1-00001-0021",
+  "price": 139.00,
+  "image_url": "images/great-expectations.jpg",
+  "genre": { "id": 3, "name": "Classic", "description": "Timeless works with enduring cultural value." },
+  "tags": [
+    { "id": 1, "name": "coming-of-age" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 32, "NoOfSold": 480 },
+  "country": { "id": 6, "name": "United Kingdom" },
+  "language": { "id": 1, "name": "English" },
+  "link": "https://en.wikipedia.org/wiki/Great_Expectations",
+  "pages": 194
+},
+{
+  "id": 22,
+  "title": "Jacques the Fatalist",
+  "author": "Denis Diderot",
+  "year": 1796,
+  "rating": 4.1,
+  "isbn": "978-1-00001-0022",
+  "price": 169.00,
+  "image_url": "images/jacques-the-fatalist.jpg",
+  "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+  "tags": [
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 14, "NoOfSold": 160 },
+  "country": { "id": 7, "name": "France" },
+  "language": { "id": 8, "name": "French" },
+  "link": "https://en.wikipedia.org/wiki/Jacques_the_Fatalist",
+  "pages": 596
+},
+{
+  "id": 23,
+  "title": "Berlin Alexanderplatz",
+  "author": "Alfred Döblin",
+  "year": 1929,
+  "rating": 4.2,
+  "isbn": "978-1-00001-0023",
+  "price": 179.00,
+  "image_url": "images/berlin-alexanderplatz.jpg",
+  "genre": { "id": 9, "name": "Thriller", "description": "Fast-paced plots with tension and danger." },
+  "tags": [
+    { "id": 8, "name": "crime" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 20, "NoOfSold": 210 },
+  "country": { "id": 23, "name": "Germany" },
+  "language": { "id": 10, "name": "German" },
+  "link": "https://en.wikipedia.org/wiki/Berlin_Alexanderplatz",
+  "pages": 600
+},
+{
+  "id": 24,
+  "title": "Crime and Punishment",
+  "author": "Fyodor Dostoevsky",
+  "year": 1866,
+  "rating": 4.8,
+  "isbn": "978-1-00001-0024",
+  "price": 199.00,
+  "image_url": "images/crime-and-punishment.jpg",
+  "genre": { "id": 7, "name": "Mystery", "description": "Crime-solving, suspense, and hidden truths." },
+  "tags": [
+    { "id": 8, "name": "crime" },
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 26, "NoOfSold": 390 },
+  "country": { "id": 11, "name": "Russia" },
+  "language": { "id": 10, "name": "Russian" },
+  "link": "https://en.wikipedia.org/wiki/Crime_and_Punishment",
+  "pages": 551
+},
+{
+  "id": 25,
+  "title": "The Idiot",
+  "author": "Fyodor Dostoevsky",
+  "year": 1869,
+  "rating": 4.5,
+  "isbn": "978-1-00001-0025",
+  "price": 189.00,
+  "image_url": "images/the-idiot.jpg",
+  "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+  "tags": [
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 22, "NoOfSold": 310 },
+  "country": { "id": 11, "name": "Russia" },
+  "language": { "id": 10, "name": "Russian" },
+  "link": "https://en.wikipedia.org/wiki/The_Idiot",
+  "pages": 656
+},
+{
+  "id": 26,
+  "title": "The Possessed",
+  "author": "Fyodor Dostoevsky",
+  "year": 1872,
+  "rating": 4.4,
+  "isbn": "978-1-00001-0026",
+  "price": 179.00,
+  "image_url": "images/the-possessed.jpg",
+  "genre": { "id": 2, "name": "Dystopian", "description": "Oppressive societies, surveillance, and control." },
+  "tags": [
+    { "id": 2, "name": "political" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 18, "NoOfSold": 260 },
+  "country": { "id": 11, "name": "Russia" },
+  "language": { "id": 10, "name": "Russian" },
+  "link": "https://en.wikipedia.org/wiki/Demons_(Dostoyevsky_novel)",
+  "pages": 768
+},
+{
+  "id": 27,
+  "title": "The Brothers Karamazov",
+  "author": "Fyodor Dostoevsky",
+  "year": 1880,
+  "rating": 4.9,
+  "isbn": "978-1-00001-0027",
+  "price": 219.00,
+  "image_url": "images/the-brothers-karamazov.jpg",
+  "genre": { "id": 3, "name": "Classic", "description": "Timeless works with enduring cultural value." },
+  "tags": [
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 30, "NoOfSold": 420 },
+  "country": { "id": 11, "name": "Russia" },
+  "language": { "id": 10, "name": "Russian" },
+  "link": "https://en.wikipedia.org/wiki/The_Brothers_Karamazov",
+  "pages": 824
+},
+{
+  "id": 28,
+  "title": "Middlemarch",
+  "author": "George Eliot",
+  "year": 1871,
+  "rating": 4.6,
+  "isbn": "978-1-00001-0028",
+  "price": 199.00,
+  "image_url": "images/middlemarch.jpg",
+  "genre": { "id": 3, "name": "Classic", "description": "Timeless works with enduring cultural value." },
+  "tags": [
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 24, "NoOfSold": 350 },
+  "country": { "id": 6, "name": "United Kingdom" },
+  "language": { "id": 1, "name": "English" },
+  "link": "https://en.wikipedia.org/wiki/Middlemarch",
+  "pages": 800
+},
+{
+  "id": 29,
+  "title": "Invisible Man",
+  "author": "Ralph Ellison",
+  "year": 1952,
+  "rating": 4.7,
+  "isbn": "978-1-00001-0029",
+  "price": 169.00,
+  "image_url": "images/invisible-man.jpg",
+  "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+  "tags": [
+    { "id": 3, "name": "social commentary" },
+    { "id": 1, "name": "coming-of-age" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 28, "NoOfSold": 390 },
+  "country": { "id": 12, "name": "United States" },
+  "language": { "id": 1, "name": "English" },
+  "link": "https://en.wikipedia.org/wiki/Invisible_Man",
+  "pages": 581
+},
+{
+  "id": 30,
+  "title": "Medea",
+  "author": "Euripides",
+  "year": 431,
+  "rating": 4.3,
+  "isbn": "978-1-00001-0030",
+  "price": 119.00,
+  "image_url": "images/medea.jpg",
+  "genre": { "id": 3, "name": "Classic", "description": "Timeless works with enduring cultural value." },
+  "tags": [
+    { "id": 9, "name": "war" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 14, "NoOfSold": 180 },
+  "country": { "id": 13, "name": "Greece" },
+  "language": { "id": 11, "name": "Greek" },
+  "link": "https://en.wikipedia.org/wiki/Medea_(play)",
+  "pages": 104
+},
+{
+  "id": 31,
+  "title": "Absalom, Absalom!",
+  "author": "William Faulkner",
+  "year": 1936,
+  "rating": 4.4,
+  "isbn": "978-1-00001-0031",
+  "price": 159.00,
+  "image_url": "images/absalom-absalom.jpg",
+  "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+  "tags": [
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 20, "NoOfSold": 260 },
+  "country": { "id": 12, "name": "United States" },
+  "language": { "id": 1, "name": "English" },
+  "link": "https://en.wikipedia.org/wiki/Absalom,_Absalom!",
+  "pages": 313
+},
+{
+  "id": 32,
+  "title": "The Sound and the Fury",
+  "author": "William Faulkner",
+  "year": 1929,
+  "rating": 4.5,
+  "isbn": "978-1-00001-0032",
+  "price": 165.00,
+  "image_url": "images/the-sound-and-the-fury.jpg",
+  "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+  "tags": [
+    { "id": 1, "name": "coming-of-age" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 22, "NoOfSold": 300 },
+  "country": { "id": 12, "name": "United States" },
+  "language": { "id": 1, "name": "English" },
+  "link": "https://en.wikipedia.org/wiki/The_Sound_and_the_Fury",
+  "pages": 326
+},
+{
+  "id": 33,
+  "title": "Madame Bovary",
+  "author": "Gustave Flaubert",
+  "year": 1857,
+  "rating": 4.6,
+  "isbn": "978-1-00001-0033",
+  "price": 159.00,
+  "image_url": "images/madame-bovary.jpg",
+  "genre": { "id": 4, "name": "Romance", "description": "Love, relationships, and emotional connections." },
+  "tags": [
+    { "id": 4, "name": "love story" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 28, "NoOfSold": 350 },
+  "country": { "id": 7, "name": "France" },
+  "language": { "id": 8, "name": "French" },
+  "link": "https://en.wikipedia.org/wiki/Madame_Bovary",
+  "pages": 528
+},
+{
+  "id": 34,
+  "title": "Sentimental Education",
+  "author": "Gustave Flaubert",
+  "year": 1869,
+  "rating": 4.3,
+  "isbn": "978-1-00001-0034",
+  "price": 169.00,
+  "image_url": "images/l-education-sentimentale.jpg",
+  "genre": { "id": 4, "name": "Romance", "description": "Love, relationships, and emotional connections." },
+  "tags": [
+    { "id": 4, "name": "love story" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 20, "NoOfSold": 260 },
+  "country": { "id": 7, "name": "France" },
+  "language": { "id": 8, "name": "French" },
+  "link": "https://en.wikipedia.org/wiki/Sentimental_Education",
+  "pages": 606
+},
+{
+  "id": 35,
+  "title": "Gypsy Ballads",
+  "author": "Federico García Lorca",
+  "year": 1928,
+  "rating": 4.3,
+  "isbn": "978-1-00001-0035",
+  "price": 129.00,
+  "image_url": "images/gypsy-ballads.jpg",
+  "genre": { "id": 10, "name": "Biography", "description": "Life stories of real people." },
+  "tags": [
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 18, "NoOfSold": 210 },
+  "country": { "id": 10, "name": "Spain" },
+  "language": { "id": 9, "name": "Spanish" },
+  "link": "https://en.wikipedia.org/wiki/Gypsy_Ballads",
+  "pages": 218
+},
+{
+  "id": 36,
+  "title": "One Hundred Years of Solitude",
+  "author": "Gabriel García Márquez",
+  "year": 1967,
+  "rating": 4.9,
+  "isbn": "978-1-00001-0036",
+  "price": 189.00,
+  "image_url": "images/one-hundred-years-of-solitude.jpg",
+  "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+  "tags": [
+    { "id": 6, "name": "magic" },
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 32, "NoOfSold": 520 },
+  "country": { "id": 10, "name": "Spain" },
+  "language": { "id": 9, "name": "Spanish" },
+  "link": "https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude",
+  "pages": 417
+},
+{
+  "id": 37,
+  "title": "Love in the Time of Cholera",
+  "author": "Gabriel García Márquez",
+  "year": 1985,
+  "rating": 4.6,
+  "isbn": "978-1-00001-0037",
+  "price": 169.00,
+  "image_url": "images/love-in-the-time-of-cholera.jpg",
+  "genre": { "id": 4, "name": "Romance", "description": "Love, relationships, and emotional connections." },
+  "tags": [
+    { "id": 4, "name": "love story" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 26, "NoOfSold": 330 },
+  "country": { "id": 10, "name": "Spain" },
+  "language": { "id": 9, "name": "Spanish" },
+  "link": "https://en.wikipedia.org/wiki/Love_in_the_Time_of_Cholera",
+  "pages": 368
+},
+{
+  "id": 38,
+  "title": "Faust",
+  "author": "Johann Wolfgang von Goethe",
+  "year": 1832,
+  "rating": 4.7,
+  "isbn": "978-1-00001-0038",
+  "price": 129.00,
+  "image_url": "images/faust.jpg",
+  "genre": { "id": 3, "name": "Classic", "description": "Timeless works with enduring cultural value." },
+  "tags": [
+    { "id": 6, "name": "magic" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 22, "NoOfSold": 300 },
+  "country": { "id": 23, "name": "Germany" },
+  "language": { "id": 10, "name": "German" },
+  "link": "https://en.wikipedia.org/wiki/Goethe%27s_Faust",
+  "pages": 158
+},
+{
+  "id": 39,
+  "title": "Dead Souls",
+  "author": "Nikolai Gogol",
+  "year": 1842,
+  "rating": 4.4,
+  "isbn": "978-1-00001-0039",
+  "price": 159.00,
+  "image_url": "images/dead-souls.jpg",
+  "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+  "tags": [
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 20, "NoOfSold": 260 },
+  "country": { "id": 11, "name": "Russia" },
+  "language": { "id": 10, "name": "Russian" },
+  "link": "https://en.wikipedia.org/wiki/Dead_Souls",
+  "pages": 432
+},
+{
+  "id": 40,
+  "title": "The Tin Drum",
+  "author": "Günter Grass",
+  "year": 1959,
+  "rating": 4.3,
+  "isbn": "978-1-00001-0040",
+  "price": 179.00,
+  "image_url": "images/the-tin-drum.jpg",
+  "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+  "tags": [
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 24, "NoOfSold": 310 },
+  "country": { "id": 23, "name": "Germany" },
+  "language": { "id": 10, "name": "German" },
+  "link": "https://en.wikipedia.org/wiki/The_Tin_Drum",
+  "pages": 600
+},
+{
+  "id": 41,
+  "title": "The Devil to Pay in the Backlands",
+  "author": "João Guimarães Rosa",
+  "year": 1956,
+  "rating": 4.4,
+  "isbn": "978-1-00001-0041",
+  "price": 169.00,
+  "image_url": "images/the-devil-to-pay-in-the-backlands.jpg",
+  "genre": { "id": 8, "name": "Historical", "description": "Stories set in past eras with cultural detail." },
+  "tags": [
+    { "id": 5, "name": "adventure" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 22, "NoOfSold": 280 },
+  "country": { "id": 15, "name": "Brazil" },
+  "language": { "id": 12, "name": "Portuguese" },
+  "link": "https://en.wikipedia.org/wiki/The_Devil_to_Pay_in_the_Backlands",
+  "pages": 494
+},
+{
+  "id": 42,
+  "title": "Hunger",
+  "author": "Knut Hamsun",
+  "year": 1890,
+  "rating": 4.2,
+  "isbn": "978-1-00001-0042",
+  "price": 129.00,
+  "image_url": "images/hunger.jpg",
+  "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+  "tags": [
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 18, "NoOfSold": 200 },
+  "country": { "id": 14, "name": "Norway" },
+  "language": { "id": 13, "name": "Norwegian" },
+  "link": "https://en.wikipedia.org/wiki/Hunger_(Hamsun_novel)",
+  "pages": 176
+},
+{
+  "id": 43,
+  "title": "The Old Man and the Sea",
+  "author": "Ernest Hemingway",
+  "year": 1952,
+  "rating": 4.6,
+  "isbn": "978-1-00001-0043",
+  "price": 119.00,
+  "image_url": "images/the-old-man-and-the-sea.jpg",
+  "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+  "tags": [
+    { "id": 5, "name": "adventure" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 26, "NoOfSold": 310 },
+  "country": { "id": 12, "name": "United States" },
+  "language": { "id": 1, "name": "English" },
+  "link": "https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea",
+  "pages": 128
+},
+{
+  "id": 44,
+  "title": "Iliad",
+  "author": "Homer",
+  "year": 735,
+  "rating": 4.8,
+  "isbn": "978-1-00001-0044",
+  "price": 199.00,
+  "image_url": "images/the-iliad-of-homer.jpg",
+  "genre": { "id": 8, "name": "Historical", "description": "Stories set in past eras with cultural detail." },
+  "tags": [
+    { "id": 9, "name": "war" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 30, "NoOfSold": 420 },
+  "country": { "id": 13, "name": "Greece" },
+  "language": { "id": 11, "name": "Greek" },
+  "link": "https://en.wikipedia.org/wiki/Iliad",
+  "pages": 608
+},
+{
+  "id": 45,
+  "title": "Odyssey",
+  "author": "Homer",
+  "year": 800,
+  "rating": 4.8,
+  "isbn": "978-1-00001-0045",
+  "price": 159.00,
+  "image_url": "images/the-odyssey-of-homer.jpg",
+  "genre": { "id": 8, "name": "Historical", "description": "Stories set in past eras with cultural detail." },
+  "tags": [
+    { "id": 5, "name": "adventure" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 28, "NoOfSold": 380 },
+  "country": { "id": 13, "name": "Greece" },
+  "language": { "id": 11, "name": "Greek" },
+  "link": "https://en.wikipedia.org/wiki/Odyssey",
+  "pages": 374
+},
+{
+  "id": 46,
+  "title": "A Doll's House",
+  "author": "Henrik Ibsen",
+  "year": 1879,
+  "rating": 4.4,
+  "isbn": "978-1-00001-0046",
+  "price": 89.00,
+  "image_url": "images/a-Dolls-house.jpg",
+  "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+  "tags": [
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 18, "NoOfSold": 240 },
+  "country": { "id": 14, "name": "Norway" },
+  "language": { "id": 13, "name": "Norwegian" },
+  "link": "https://en.wikipedia.org/wiki/A_Doll%27s_House",
+  "pages": 68
+},
+{
+  "id": 47,
+  "title": "Ulysses",
+  "author": "James Joyce",
+  "year": 1922,
+  "rating": 4.7,
+  "isbn": "978-1-00001-0047",
+  "price": 139.00,
+  "image_url": "images/ulysses.jpg",
+  "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+  "tags": [
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 20, "NoOfSold": 300 },
+  "country": { "id": 8, "name": "Ireland" },
+  "language": { "id": 1, "name": "English" },
+  "link": "https://en.wikipedia.org/wiki/Ulysses_(novel)",
+  "pages": 228
+},
+{
+  "id": 48,
+  "title": "Stories",
+  "author": "Franz Kafka",
+  "year": 1924,
+  "rating": 4.5,
+  "isbn": "978-1-00001-0048",
+  "price": 169.00,
+  "image_url": "images/stories-of-franz-kafka.jpg",
+  "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+  "tags": [
+    { "id": 8, "name": "crime" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 22, "NoOfSold": 310 },
+  "country": { "id": 18, "name": "Czechoslovakia" },
+  "language": { "id": 10, "name": "German" },
+  "link": "https://en.wikipedia.org/wiki/Franz_Kafka_bibliography#Short_stories",
+  "pages": 488
+},
+{
+  "id": 49,
+  "title": "The Trial",
+  "author": "Franz Kafka",
+  "year": 1925,
+  "rating": 4.6,
+  "isbn": "978-1-00001-0049",
+  "price": 129.00,
+  "image_url": "images/the-trial.jpg",
+  "genre": { "id": 2, "name": "Dystopian", "description": "Oppressive societies, surveillance, and control." },
+  "tags": [
+    { "id": 2, "name": "political" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 18, "NoOfSold": 260 },
+  "country": { "id": 18, "name": "Czechoslovakia" },
+  "language": { "id": 10, "name": "German" },
+  "link": "https://en.wikipedia.org/wiki/The_Trial",
+  "pages": 160
+},
+{
+  "id": 50,
+  "title": "The Castle",
+  "author": "Franz Kafka",
+  "year": 1926,
+  "rating": 4.5,
+  "isbn": "978-1-00001-0050",
+  "price": 149.00,
+  "image_url": "images/the-castle.jpg",
+  "genre": { "id": 2, "name": "Dystopian", "description": "Oppressive societies, surveillance, and control." },
+  "tags": [
+    { "id": 2, "name": "political" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 20, "NoOfSold": 300 },
+  "country": { "id": 18, "name": "Czechoslovakia" },
+  "language": { "id": 10, "name": "German" },
+  "link": "https://en.wikipedia.org/wiki/The_Castle_(novel)",
+  "pages": 352
+},
+{
+  "id": 51,
+  "title": "The recognition of Shakuntala",
+  "author": "Kālidāsa",
+  "year": 150,
+  "rating": 4.4,
+  "isbn": "978-1-00001-0051",
+  "price": 109.00,
+  "image_url": "images/the-recognition-of-shakuntala.jpg",
+  "genre": { "id": 8, "name": "Historical", "description": "Stories set in past eras with cultural detail." },
+  "tags": [
+    { "id": 4, "name": "love story" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 16, "NoOfSold": 200 },
+  "country": { "id": 19, "name": "India" },
+  "language": { "id": 14, "name": "Sanskrit" },
+  "link": "https://en.wikipedia.org/wiki/Abhij%C3%B1%C4%81na%C5%9B%C4%81kuntalam",
+  "pages": 147
+},
+{
+  "id": 52,
+  "title": "The Sound of the Mountain",
+  "author": "Yasunari Kawabata",
+  "year": 1954,
+  "rating": 4.3,
+  "isbn": "978-1-00001-0052",
+  "price": 149.00,
+  "image_url": "images/the-sound-of-the-mountain.jpg",
+  "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+  "tags": [
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 22, "NoOfSold": 260 },
+  "country": { "id": 24, "name": "Japan" },
+  "language": { "id": 17, "name": "Japanese" },
+  "link": "https://en.wikipedia.org/wiki/The_Sound_of_the_Mountain",
+  "pages": 288
+},
+{
+  "id": 53,
+  "title": "Zorba the Greek",
+  "author": "Nikos Kazantzakis",
+  "year": 1946,
+  "rating": 4.5,
+  "isbn": "978-1-00001-0053",
+  "price": 159.00,
+  "image_url": "images/zorba-the-greek.jpg",
+  "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+  "tags": [
+    { "id": 5, "name": "adventure" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 20, "NoOfSold": 240 },
+  "country": { "id": 13, "name": "Greece" },
+  "language": { "id": 11, "name": "Greek" },
+  "link": "https://en.wikipedia.org/wiki/Zorba_the_Greek",
+  "pages": 368
+},
+{
+  "id": 54,
+  "title": "Sons and Lovers",
+  "author": "D. H. Lawrence",
+  "year": 1913,
+  "rating": 4.4,
+  "isbn": "978-1-00001-0054",
+  "price": 159.00,
+  "image_url": "images/sons-and-lovers.jpg",
+  "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+  "tags": [
+    { "id": 1, "name": "coming-of-age" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 24, "NoOfSold": 300 },
+  "country": { "id": 6, "name": "United Kingdom" },
+  "language": { "id": 1, "name": "English" },
+  "link": "https://en.wikipedia.org/wiki/Sons_and_Lovers",
+  "pages": 432
+},
+{
+  "id": 55,
+  "title": "Independent People",
+  "author": "Halldór Laxness",
+  "year": 1934,
+  "rating": 4.5,
+  "isbn": "978-1-00001-0055",
+  "price": 169.00,
+  "image_url": "images/independent-people.jpg",
+  "genre": { "id": 8, "name": "Historical", "description": "Stories set in past eras with cultural detail." },
+  "tags": [
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 20, "NoOfSold": 260 },
+  "country": { "id": 5, "name": "Iceland" },
+  "language": { "id": 7, "name": "Old Norse" },
+  "link": "https://en.wikipedia.org/wiki/Independent_People",
+  "pages": 470
+},
+{
+  "id": 56,
+  "title": "Poems",
+  "author": "Giacomo Leopardi",
+  "year": 1818,
+  "rating": 4.3,
+  "isbn": "978-1-00001-0056",
+  "price": 119.00,
+  "image_url": "images/poems-giacomo-leopardi.jpg",
+  "genre": { "id": 10, "name": "Biography", "description": "Life stories of real people." },
+  "tags": [
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 18, "NoOfSold": 200 },
+  "country": { "id": 3, "name": "Italy" },
+  "language": { "id": 3, "name": "Italian" },
+  "link": "",
+  "pages": 184
+},
+{
+  "id": 57,
+  "title": "The Golden Notebook",
+  "author": "Doris Lessing",
+  "year": 1962,
+  "rating": 4.6,
+  "isbn": "978-1-00001-0057",
+  "price": 189.00,
+  "image_url": "images/the-golden-notebook.jpg",
+  "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+  "tags": [
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 26, "NoOfSold": 330 },
+  "country": { "id": 6, "name": "United Kingdom" },
+  "language": { "id": 1, "name": "English" },
+  "link": "https://en.wikipedia.org/wiki/The_Golden_Notebook",
+  "pages": 688
+},
+{
+  "id": 58,
+  "title": "Pippi Longstocking",
+  "author": "Astrid Lindgren",
+  "year": 1945,
+  "rating": 4.5,
+  "isbn": "978-1-00001-0058",
+  "price": 119.00,
+  "image_url": "images/pippi-longstocking.jpg",
+  "genre": { "id": 5, "name": "Fantasy", "description": "Magical worlds, mythical creatures, epic adventures." },
+  "tags": [
+    { "id": 5, "name": "adventure" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 22, "NoOfSold": 260 },
+  "country": { "id": 20, "name": "Sweden" },
+  "language": { "id": 15, "name": "Swedish" },
+  "link": "https://en.wikipedia.org/wiki/Pippi_Longstocking",
+  "pages": 160
+},
+{
+  "id": 59,
+  "title": "Diary of a Madman",
+  "author": "Lu Xun",
+  "year": 1918,
+  "rating": 4.4,
+  "isbn": "978-1-00001-0059",
+  "price": 159.00,
+  "image_url": "images/diary-of-a-madman.jpg",
+  "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+  "tags": [
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 20, "NoOfSold": 240 },
+  "country": { "id": 21, "name": "China" },
+  "language": { "id": 16, "name": "Chinese" },
+  "link": "https://en.wikipedia.org/wiki/A_Madman%27s_Diary",
+  "pages": 389
+},
+{
+  "id": 60,
+  "title": "Children of Gebelawi",
+  "author": "Naguib Mahfouz",
+  "year": 1959,
+  "rating": 4.5,
+  "isbn": "978-1-00001-0060",
+  "price": 159.00,
+  "image_url": "images/children-of-gebelawi.jpg",
+  "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+  "tags": [
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 24, "NoOfSold": 300 },
+  "country": { "id": 22, "name": "Egypt" },
+  "language": { "id": 6, "name": "Arabic" },
+  "link": "https://en.wikipedia.org/wiki/Children_of_Gebelawi",
+  "pages": 355
+},
+{
+  "id": 61,
+  "title": "Buddenbrooks",
+  "author": "Thomas Mann",
+  "year": 1901,
+  "rating": 4.6,
+  "isbn": "978-1-00001-0061",
+  "price": 199.00,
+  "image_url": "images/buddenbrooks.jpg",
+  "genre": { "id": 3, "name": "Classic", "description": "Timeless works with enduring cultural value." },
+  "tags": [
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 26, "NoOfSold": 340 },
+  "country": { "id": 23, "name": "Germany" },
+  "language": { "id": 10, "name": "German" },
+  "link": "https://en.wikipedia.org/wiki/Buddenbrooks",
+  "pages": 736
+},
+{
+  "id": 62,
+  "title": "The Magic Mountain",
+  "author": "Thomas Mann",
+  "year": 1924,
+  "rating": 4.7,
+  "isbn": "978-1-00001-0062",
+  "price": 199.00,
+  "image_url": "images/the-magic-mountain.jpg",
+  "genre": { "id": 3, "name": "Classic", "description": "Timeless works with enduring cultural value." },
+  "tags": [
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 22, "NoOfSold": 300 },
+  "country": { "id": 23, "name": "Germany" },
+  "language": { "id": 10, "name": "German" },
+  "link": "https://en.wikipedia.org/wiki/The_Magic_Mountain",
+  "pages": 720
+},
+{
+  "id": 63,
+  "title": "Moby Dick",
+  "author": "Herman Melville",
+  "year": 1851,
+  "rating": 4.6,
+  "isbn": "978-1-00001-0063",
+  "price": 159.00,
+  "image_url": "images/moby-dick.jpg",
+  "genre": { "id": 5, "name": "Fantasy", "description": "Magical worlds, mythical creatures, epic adventures." },
+  "tags": [
+    { "id": 5, "name": "adventure" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 30, "NoOfSold": 420 },
+  "country": { "id": 12, "name": "United States" },
+  "language": { "id": 1, "name": "English" },
+  "link": "https://en.wikipedia.org/wiki/Moby-Dick",
+  "pages": 378
+},
+{
+  "id": 64,
+  "title": "Essays",
+  "author": "Michel de Montaigne",
+  "year": 1595,
+  "rating": 4.5,
+  "isbn": "978-1-00001-0064",
+  "price": 149.00,
+  "image_url": "images/essais.jpg",
+  "genre": { "id": 10, "name": "Biography", "description": "Life stories of real people." },
+  "tags": [
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 18, "NoOfSold": 240 },
+  "country": { "id": 7, "name": "France" },
+  "language": { "id": 8, "name": "French" },
+  "link": "https://en.wikipedia.org/wiki/Essays_(Montaigne)",
+  "pages": 404
+},
+{
+  "id": 65,
+  "title": "History",
+  "author": "Elsa Morante",
+  "year": 1974,
+  "rating": 4.4,
+  "isbn": "978-1-00001-0065",
+  "price": 179.00,
+  "image_url": "images/history.jpg",
+  "genre": { "id": 8, "name": "Historical", "description": "Stories set in past eras with cultural detail." },
+  "tags": [
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 22, "NoOfSold": 260 },
+  "country": { "id": 3, "name": "Italy" },
+  "language": { "id": 3, "name": "Italian" },
+  "link": "https://en.wikipedia.org/wiki/History_(novel)",
+  "pages": 600
+},
+{
+  "id": 66,
+  "title": "Beloved",
+  "author": "Toni Morrison",
+  "year": 1987,
+  "rating": 4.8,
+  "isbn": "978-1-00001-0066",
+  "price": 159.00,
+  "image_url": "images/beloved.jpg",
+  "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+  "tags": [
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 28, "NoOfSold": 380 },
+  "country": { "id": 12, "name": "United States" },
+  "language": { "id": 1, "name": "English" },
+  "link": "https://en.wikipedia.org/wiki/Beloved_(novel)",
+  "pages": 321
+},
+{
+  "id": 67,
+  "title": "The Tale of Genji",
+  "author": "Murasaki Shikibu",
+  "year": 1006,
+  "rating": 4.9,
+  "isbn": "978-1-00001-0067",
+  "price": 299.00,
+  "image_url": "images/the-tale-of-genji.jpg",
+  "genre": { "id": 8, "name": "Historical", "description": "Stories set in past eras with cultural detail." },
+  "tags": [
+    { "id": 4, "name": "love story" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 34, "NoOfSold": 500 },
+  "country": { "id": 24, "name": "Japan" },
+  "language": { "id": 17, "name": "Japanese" },
+  "link": "https://en.wikipedia.org/wiki/The_Tale_of_Genji",
+  "pages": 1360
+},
+{
+  "id": 68,
+  "title": "The Man Without Qualities",
+  "author": "Robert Musil",
+  "year": 1931,
+  "rating": 4.4,
+  "isbn": "978-1-00001-0068",
+  "price": 159.00,
+  "image_url": "images/the-man-without-qualities.jpg",
+  "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+  "tags": [
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 20, "NoOfSold": 260 },
+  "country": { "id": 25, "name": "Austria" },
+  "language": { "id": 10, "name": "German" },
+  "link": "https://en.wikipedia.org/wiki/The_Man_Without_Qualities",
+  "pages": 365
+},
+{
+  "id": 69,
+  "title": "Lolita",
+  "author": "Vladimir Nabokov",
+  "year": 1955,
+  "rating": 4.6,
+  "isbn": "978-1-00001-0069",
+  "price": 149.00,
+  "image_url": "images/lolita.jpg",
+  "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+  "tags": [
+    { "id": 8, "name": "crime" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 24, "NoOfSold": 320 },
+  "country": { "id": 11, "name": "Russia/United States" },
+  "language": { "id": 1, "name": "English" },
+  "link": "https://en.wikipedia.org/wiki/Lolita",
+  "pages": 317
+},
+{
+  "id": 70,
+  "title": "Nineteen Eighty-Four",
+  "author": "George Orwell",
+  "year": 1949,
+  "rating": 4.9,
+  "isbn": "978-1-00001-0070",
+  "price": 159.00,
+  "image_url": "images/nineteen-eighty-four.jpg",
+  "genre": { "id": 2, "name": "Dystopian", "description": "Oppressive societies, surveillance, and control." },
+  "tags": [
+    { "id": 2, "name": "political" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 30, "NoOfSold": 500 },
+  "country": { "id": 6, "name": "United Kingdom" },
+  "language": { "id": 1, "name": "English" },
+  "link": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four",
+  "pages": 272
+},
+{
+  "id": 71,
+  "title": "Metamorphoses",
+  "author": "Ovid",
+  "year": 100,
+  "rating": 4.7,
+  "isbn": "978-1-00001-0071",
+  "price": 179.00,
+  "image_url": "images/the-metamorphoses-of-ovid.jpg",
+  "genre": { "id": 8, "name": "Historical", "description": "Stories set in past eras with cultural detail." },
+  "tags": [
+    { "id": 6, "name": "magic" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 26, "NoOfSold": 350 },
+  "country": { "id": 27, "name": "Roman Empire" },
+  "language": { "id": 18, "name": "Latin" },
+  "link": "https://en.wikipedia.org/wiki/Metamorphoses",
+  "pages": 576
+},
+{
+  "id": 72,
+  "title": "The Book of Disquiet",
+  "author": "Fernando Pessoa",
+  "year": 1928,
+  "rating": 4.5,
+  "isbn": "978-1-00001-0072",
+  "price": 149.00,
+  "image_url": "images/the-book-of-disquiet.jpg",
+  "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+  "tags": [
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 20, "NoOfSold": 260 },
+  "country": { "id": 12, "name": "Portugal" },
+  "language": { "id": 12, "name": "Portuguese" },
+  "link": "https://en.wikipedia.org/wiki/The_Book_of_Disquiet",
+  "pages": 272
+},
+{
+  "id": 73,
+  "title": "Tales",
+  "author": "Edgar Allan Poe",
+  "year": 1950,
+  "rating": 4.6,
+  "isbn": "978-1-00001-0073",
+  "price": 199.00,
+  "image_url": "images/tales-and-poems-of-edgar-allan-poe.jpg",
+  "genre": { "id": 7, "name": "Mystery", "description": "Crime-solving, suspense, and hidden truths." },
+  "tags": [
+    { "id": 8, "name": "crime" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 28, "NoOfSold": 380 },
+  "country": { "id": 12, "name": "United States" },
+  "language": { "id": 1, "name": "English" },
+  "link": "https://en.wikipedia.org/wiki/Edgar_Allan_Poe_bibliography#Tales",
+  "pages": 842
+},
+{
+  "id": 74,
+  "title": "In Search of Lost Time",
+  "author": "Marcel Proust",
+  "year": 1920,
+  "rating": 4.9,
+  "isbn": "978-1-00001-0074",
+  "price": 349.00,
+  "image_url": "images/a-la-recherche-du-temps-perdu.jpg",
+  "genre": { "id": 3, "name": "Classic", "description": "Timeless works with enduring cultural value." },
+  "tags": [
+    { "id": 4, "name": "love story" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 40, "NoOfSold": 600 },
+  "country": { "id": 7, "name": "France" },
+  "language": { "id": 8, "name": "French" },
+  "link": "https://en.wikipedia.org/wiki/In_Search_of_Lost_Time",
+  "pages": 2408
+},
+{
+  "id": 75,
+  "title": "Gargantua and Pantagruel",
+  "author": "François Rabelais",
+  "year": 1533,
+  "rating": 4.4,
+  "isbn": "978-1-00001-0075",
+  "price": 179.00,
+  "image_url": "images/gargantua-and-pantagruel.jpg",
+  "genre": { "id": 5, "name": "Fantasy", "description": "Magical worlds, mythical creatures, epic adventures." },
+  "tags": [
+    { "id": 6, "name": "magic" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 22, "NoOfSold": 300 },
+  "country": { "id": 7, "name": "France" },
+  "language": { "id": 8, "name": "French" },
+  "link": "https://en.wikipedia.org/wiki/Gargantua_and_Pantagruel",
+  "pages": 623
+},
+{
+  "id": 76,
+  "title": "Pedro Páramo",
+  "author": "Juan Rulfo",
+  "year": 1955,
+  "rating": 4.5,
+  "isbn": "978-1-00001-0076",
+  "price": 109.00,
+  "image_url": "images/pedro-paramo.jpg",
+  "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+  "tags": [
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 18, "NoOfSold": 240 },
+  "country": { "id": 28, "name": "Mexico" },
+  "language": { "id": 9, "name": "Spanish" },
+  "link": "https://en.wikipedia.org/wiki/Pedro_P%C3%A1ramo",
+  "pages": 124
+},
+{
+  "id": 77,
+  "title": "The Masnavi",
+  "author": "Rumi",
+  "year": 1236,
+  "rating": 4.8,
+  "isbn": "978-1-00001-0077",
+  "price": 169.00,
+  "image_url": "images/the-masnavi.jpg",
+  "genre": { "id": 8, "name": "Historical", "description": "Stories set in past eras with cultural detail." },
+  "tags": [
+    { "id": 6, "name": "magic" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 22, "NoOfSold": 300 },
+  "country": { "id": 26, "name": "Persia" },
+  "language": { "id": 19, "name": "Persian" },
+  "link": "https://en.wikipedia.org/wiki/Masnavi",
+  "pages": 438
+},
+{
+  "id": 78,
+  "title": "Midnight's Children",
+  "author": "Salman Rushdie",
+  "year": 1981,
+  "rating": 4.7,
+  "isbn": "978-1-00001-0078",
+  "price": 169.00,
+  "image_url": "images/midnights-children.jpg",
+  "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+  "tags": [
+    { "id": 2, "name": "political" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 26, "NoOfSold": 330 },
+  "country": { "id": 6, "name": "United Kingdom, India" },
+  "language": { "id": 1, "name": "English" },
+  "link": "https://en.wikipedia.org/wiki/Midnight%27s_Children",
+  "pages": 536
+},
+{
+  "id": 79,
+  "title": "Bostan",
+  "author": "Saadi",
+  "year": 1257,
+  "rating": 4.6,
+  "isbn": "978-1-00001-0079",
+  "price": 149.00,
+  "image_url": "images/bostan.jpg",
+  "genre": { "id": 8, "name": "Historical", "description": "Stories set in past eras with cultural detail." },
+  "tags": [
+    { "id": 6, "name": "magic" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 20, "NoOfSold": 260 },
+  "country": { "id": 26, "name": "Persia" },
+  "language": { "id": 19, "name": "Persian" },
+  "link": "https://en.wikipedia.org/wiki/Bustan_(book)",
+  "pages": 298
+},
+{
+  "id": 80,
+  "title": "Season of Migration to the North",
+  "author": "Tayeb Salih",
+  "year": 1966,
+  "rating": 4.5,
+  "isbn": "978-1-00001-0080",
+  "price": 129.00,
+  "image_url": "images/season-of-migration-to-the-north.jpg",
+  "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+  "tags": [
+    { "id": 2, "name": "political" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 18, "NoOfSold": 240 },
+  "country": { "id": 29, "name": "Sudan" },
+  "language": { "id": 6, "name": "Arabic" },
+  "link": "https://en.wikipedia.org/wiki/Season_of_Migration_to_the_North",
+  "pages": 139
+},
+{
+  "id": 81,
+  "title": "Blindness",
+  "author": "José Saramago",
+  "year": 1995,
+  "rating": 4.7,
+  "isbn": "978-1-00001-0081",
+  "price": 159.00,
+  "image_url": "images/blindness.jpg",
+  "genre": { "id": 2, "name": "Dystopian", "description": "Oppressive societies, surveillance, and control." },
+  "tags": [
+    { "id": 2, "name": "political" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 24, "NoOfSold": 300 },
+  "country": { "id": 12, "name": "Portugal" },
+  "language": { "id": 12, "name": "Portuguese" },
+  "link": "https://en.wikipedia.org/wiki/Blindness_(novel)",
+  "pages": 352
+},
+{
+  "id": 82,
+  "title": "Hamlet",
+  "author": "William Shakespeare",
+  "year": 1603,
+  "rating": 4.9,
+  "isbn": "978-1-00001-0082",
+  "price": 159.00,
+  "image_url": "images/hamlet.jpg",
+  "genre": { "id": 3, "name": "Classic", "description": "Timeless works with enduring cultural value." },
+  "tags": [
+    { "id": 9, "name": "war" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 30, "NoOfSold": 420 },
+  "country": { "id": 13, "name": "England" },
+  "language": { "id": 1, "name": "English" },
+  "link": "https://en.wikipedia.org/wiki/Hamlet",
+  "pages": 432
+},
+{
+  "id": 83,
+  "title": "King Lear",
+  "author": "William Shakespeare",
+  "year": 1608,
+  "rating": 4.8,
+  "isbn": "978-1-00001-0083",
+  "price": 149.00,
+  "image_url": "images/king-lear.jpg",
+  "genre": { "id": 3, "name": "Classic", "description": "Timeless works with enduring cultural value." },
+  "tags": [
+    { "id": 9, "name": "war" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 26, "NoOfSold": 350 },
+  "country": { "id": 13, "name": "England" },
+  "language": { "id": 1, "name": "English" },
+  "link": "https://en.wikipedia.org/wiki/King_Lear",
+  "pages": 384
+},
+{
+  "id": 84,
+  "title": "Othello",
+  "author": "William Shakespeare",
+  "year": 1609,
+  "rating": 4.8,
+  "isbn": "978-1-00001-0084",
+  "price": 139.00,
+  "image_url": "images/othello.jpg",
+  "genre": { "id": 3, "name": "Classic", "description": "Timeless works with enduring cultural value." },
+  "tags": [
+    { "id": 8, "name": "crime" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 24, "NoOfSold": 320 },
+  "country": { "id": 13, "name": "England" },
+  "language": { "id": 1, "name": "English" },
+  "link": "https://en.wikipedia.org/wiki/Othello",
+  "pages": 314
+},
+{
+  "id": 85,
+  "title": "Oedipus the King",
+  "author": "Sophocles",
+  "year": 430,
+  "rating": 4.7,
+  "isbn": "978-1-00001-0085",
+  "price": 99.00,
+  "image_url": "images/oedipus-the-king.jpg",
+  "genre": { "id": 3, "name": "Classic", "description": "Timeless works with enduring cultural value." },
+  "tags": [
+    { "id": 9, "name": "war" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 18, "NoOfSold": 260 },
+  "country": { "id": 13, "name": "Greece" },
+  "language": { "id": 11, "name": "Greek" },
+  "link": "https://en.wikipedia.org/wiki/Oedipus_the_King",
+  "pages": 88
+},
+{
+  "id": 86,
+  "title": "The Red and the Black",
+  "author": "Stendhal",
+  "year": 1830,
+  "rating": 4.6,
+  "isbn": "978-1-00001-0086",
+  "price": 179.00,
+  "image_url": "images/le-rouge-et-le-noir.jpg",
+  "genre": { "id": 3, "name": "Classic", "description": "Timeless works with enduring cultural value." },
+  "tags": [
+    { "id": 2, "name": "political" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 22, "NoOfSold": 300 },
+  "country": { "id": 7, "name": "France" },
+  "language": { "id": 8, "name": "French" },
+  "link": "https://en.wikipedia.org/wiki/The_Red_and_the_Black",
+  "pages": 576
+},
+{
+  "id": 87,
+  "title": "The Life And Opinions of Tristram Shandy",
+  "author": "Laurence Sterne",
+  "year": 1760,
+  "rating": 4.4,
+  "isbn": "978-1-00001-0087",
+  "price": 189.00,
+  "image_url": "images/the-life-and-opinions-of-tristram-shandy.jpg",
+  "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+  "tags": [
+    { "id": 7, "name": "space" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 20, "NoOfSold": 260 },
+  "country": { "id": 13, "name": "England" },
+  "language": { "id": 1, "name": "English" },
+  "link": "https://en.wikipedia.org/wiki/The_Life_and_Opinions_of_Tristram_Shandy,_Gentleman",
+  "pages": 640
+},
+{
+  "id": 88,
+  "title": "Confessions of Zeno",
+  "author": "Italo Svevo",
+  "year": 1923,
+  "rating": 4.5,
+  "isbn": "978-1-00001-0088",
+  "price": 159.00,
+  "image_url": "images/confessions-of-zeno.jpg",
+  "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+  "tags": [
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 22, "NoOfSold": 300 },
+  "country": { "id": 3, "name": "Italy" },
+  "language": { "id": 3, "name": "Italian" },
+  "link": "https://en.wikipedia.org/wiki/Zeno%27s_Conscience",
+  "pages": 412
+},
+{
+  "id": 89,
+  "title": "Gulliver's Travels",
+  "author": "Jonathan Swift",
+  "year": 1726,
+  "rating": 4.6,
+  "isbn": "978-1-00001-0089",
+  "price": 129.00,
+  "image_url": "images/gullivers-travels.jpg",
+  "genre": { "id": 5, "name": "Fantasy", "description": "Magical worlds, mythical creatures, epic adventures." },
+  "tags": [
+    { "id": 5, "name": "adventure" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 24, "NoOfSold": 320 },
+  "country": { "id": 8, "name": "Ireland" },
+  "language": { "id": 1, "name": "English" },
+  "link": "https://en.wikipedia.org/wiki/Gulliver%27s_Travels",
+  "pages": 178
+},
+{
+  "id": 90,
+  "title": "War and Peace",
+  "author": "Leo Tolstoy",
+  "year": 1867,
+  "rating": 4.9,
+  "isbn": "978-1-00001-0090",
+  "price": 299.00,
+  "image_url": "images/war-and-peace.jpg",
+  "genre": { "id": 3, "name": "Classic", "description": "Timeless works with enduring cultural value." },
+  "tags": [
+    { "id": 9, "name": "war" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 40, "NoOfSold": 600 },
+  "country": { "id": 11, "name": "Russia" },
+  "language": { "id": 10, "name": "Russian" },
+  "link": "https://en.wikipedia.org/wiki/War_and_Peace",
+  "pages": 1296
+},
+{
+  "id": 91,
+  "title": "Anna Karenina",
+  "author": "Leo Tolstoy",
+  "year": 1877,
+  "rating": 4.9,
+  "isbn": "978-1-00001-0091",
+  "price": 229.00,
+  "image_url": "images/anna-karenina.jpg",
+  "genre": { "id": 3, "name": "Classic", "description": "Timeless works with enduring cultural value." },
+  "tags": [
+    { "id": 4, "name": "love story" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 34, "NoOfSold": 520 },
+  "country": { "id": 11, "name": "Russia" },
+  "language": { "id": 10, "name": "Russian" },
+  "link": "https://en.wikipedia.org/wiki/Anna_Karenina",
+  "pages": 864
+},
+{
+  "id": 92,
+  "title": "The Death of Ivan Ilyich",
+  "author": "Leo Tolstoy",
+  "year": 1886,
+  "rating": 4.7,
+  "isbn": "978-1-00001-0092",
+  "price": 99.00,
+  "image_url": "images/the-death-of-ivan-ilyich.jpg",
+  "genre": { "id": 3, "name": "Classic", "description": "Timeless works with enduring cultural value." },
+  "tags": [
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 20, "NoOfSold": 260 },
+  "country": { "id": 11, "name": "Russia" },
+  "language": { "id": 10, "name": "Russian" },
+  "link": "https://en.wikipedia.org/wiki/The_Death_of_Ivan_Ilyich",
+  "pages": 92
+},
+{
+  "id": 93,
+  "title": "The Adventures of Huckleberry Finn",
+  "author": "Mark Twain",
+  "year": 1884,
+  "rating": 4.6,
+  "isbn": "978-1-00001-0093",
+  "price": 129.00,
+  "image_url": "images/the-adventures-of-huckleberry-finn.jpg",
+  "genre": { "id": 5, "name": "Fantasy", "description": "Magical worlds, mythical creatures, epic adventures." },
+  "tags": [
+    { "id": 5, "name": "adventure" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 26, "NoOfSold": 340 },
+  "country": { "id": 12, "name": "United States" },
+  "language": { "id": 1, "name": "English" },
+  "link": "https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn",
+  "pages": 224
+},
+{
+  "id": 94,
+  "title": "Ramayana",
+  "author": "Valmiki",
+  "year": 450,
+  "rating": 4.8,
+  "isbn": "978-1-00001-0094",
+  "price": 129.00,
+  "image_url": "images/ramayana.jpg",
+  "genre": { "id": 8, "name": "Historical", "description": "Stories set in past eras with cultural detail." },
+  "tags": [
+    { "id": 6, "name": "magic" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 22, "NoOfSold": 300 },
+  "country": { "id": 19, "name": "India" },
+  "language": { "id": 14, "name": "Sanskrit" },
+  "link": "https://en.wikipedia.org/wiki/Ramayana",
+  "pages": 152
+},
+{
+  "id": 95,
+  "title": "The Aeneid",
+  "author": "Virgil",
+  "year": 23,
+  "rating": 4.8,
+  "isbn": "978-1-00001-0095",
+  "price": 179.00,
+  "image_url": "images/the-aeneid.jpg",
+  "genre": { "id": 8, "name": "Historical", "description": "Stories set in past eras with cultural detail." },
+  "tags": [
+    { "id": 9, "name": "war" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 28, "NoOfSold": 380 },
+  "country": { "id": 27, "name": "Roman Empire" },
+  "language": { "id": 18, "name": "Latin" },
+  "link": "https://en.wikipedia.org/wiki/Aeneid",
+  "pages": 442
+},
+{
+  "id": 96,
+  "title": "Mahabharata",
+  "author": "Vyasa",
+  "year": 700,
+  "rating": 4.9,
+  "isbn": "978-1-00001-0096",
+  "price": 149.00,
+  "image_url": "images/the-mahab-harata.jpg",
+  "genre": { "id": 8, "name": "Historical", "description": "Stories set in past eras with cultural detail." },
+  "tags": [
+    { "id": 9, "name": "war" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 30, "NoOfSold": 420 },
+  "country": { "id": 19, "name": "India" },
+  "language": { "id": 14, "name": "Sanskrit" },
+  "link": "https://en.wikipedia.org/wiki/Mahabharata",
+  "pages": 276
+},
+{
+  "id": 97,
+  "title": "Leaves of Grass",
+  "author": "Walt Whitman",
+  "year": 1855,
+  "rating": 4.6,
+  "isbn": "978-1-00001-0097",
+  "price": 119.00,
+  "image_url": "images/leaves-of-grass.jpg",
+  "genre": { "id": 10, "name": "Biography", "description": "Life stories of real people." },
+  "tags": [
+    { "id": 1, "name": "coming-of-age" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 22, "NoOfSold": 300 },
+  "country": { "id": 12, "name": "United States" },
+  "language": { "id": 1, "name": "English" },
+  "link": "https://en.wikipedia.org/wiki/Leaves_of_Grass",
+  "pages": 152
+},
+{
+  "id": 98,
+  "title": "Mrs Dalloway",
+  "author": "Virginia Woolf",
+  "year": 1925,
+  "rating": 4.5,
+  "isbn": "978-1-00001-0098",
+  "price": 129.00,
+  "image_url": "images/mrs-dalloway.jpg",
+  "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+  "tags": [
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 20, "NoOfSold": 260 },
+  "country": { "id": 6, "name": "United Kingdom" },
+  "language": { "id": 1, "name": "English" },
+  "link": "https://en.wikipedia.org/wiki/Mrs_Dalloway",
+  "pages": 216
+},
+{
+  "id": 99,
+  "title": "To the Lighthouse",
+  "author": "Virginia Woolf",
+  "year": 1927,
+  "rating": 4.6,
+  "isbn": "978-1-00001-0099",
+  "price": 129.00,
+  "image_url": "images/to-the-lighthouse.jpg",
+  "genre": { "id": 1, "name": "Fiction", "description": "Imaginary stories exploring social themes." },
+  "tags": [
+    { "id": 3, "name": "social commentary" }
+  ],
+  "status": { "id": 1, "name": "Active" },
+  "stock": { "NoAvailable": 22, "NoOfSold": 300 },
+  "country": { "id": 6, "name": "United Kingdom" },
+  "language": { "id": 1, "name": "English" },
+  "link": "https://en.wikipedia.org/wiki/To_the_Lighthouse",
+  "pages": 209
+},
+{
+  "id": 100,
+  "title": "Memoirs of Hadrian",
+  "author": "Marguerite Yourcenar",
+  "year": 1951,
+  "rating": 4.7,
+  "isbn": "978-1-00001-0100",
+  "price": 159.00,
+  "image_url": "images/memoirs-of-hadrian.jpg",
+  "genre": { "id": 8, "name": "Historical", "description": "Stories set in past eras with cultural detail." },
+  "tags": [
+    { "id": 2, "name": "political" }
+  ],
+  "status": { "id": 2, "name": "Inactive" },
+  "stock": { "NoAvailable": 24, "NoOfSold": 320 },
+  "country": { "id": 7, "name": "France/Belgium" },
+  "language": { "id": 8, "name": "French" },
+  "link": "https://en.wikipedia.org/wiki/Memoirs_of_Hadrian",
+  "pages": 408
+}
 ]
+
 }

@@ -4,7 +4,7 @@
   "description": "Quick mock API using JSON Server",
   "main": "index.js",
   "scripts": {
-    "api": "json-server --watch db.json --port 4000"
+    "api": "node server.js"
   },
   "keywords": [
     "json-server",

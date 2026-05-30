@@ -7,7 +7,7 @@ function useBooks() {
   return useQuery<Book[]>({
     queryKey: ["books"],
     queryFn: GetAllBooks,
-    staleTime: 1000 * 60 * 5,
+    //staleTime: 1000 * 60 * 5,
   });
 }
 
@@ -22,26 +22,65 @@ export function useBookById(id: number) {
 
 export function useBookByStatusAndBookTitle(
   statusId: number,
-  bookTitle: string | null = null
+  bookTitle: string | null = null,
+  genreId: number,
+  languageId: number,
+  rating: number
 ) {
   const { data, isLoading, isError } = useBooks();
 
   const filtered: Book[] =
     data
       ?.filter((p) => {
+        // Pre-calc values
+        const title = p.title.toLowerCase();
+        const search = bookTitle?.toLowerCase() ?? "";
+
+        // --- STATUS RULE ---
         const matchesStatus = p.status.id === statusId;
-        const matchesName = bookTitle
-          ? p.title.toLowerCase().includes(bookTitle.toLowerCase())
+
+        // --- TITLE RULE ---
+        const matchesName = search
+          ? title.includes(search)
           : true;
 
-        return matchesStatus && matchesName;
+        // --- GENRE RULE ---
+        // Ignore if genreId is 0 or null
+        const matchesGenre =
+          genreId && genreId !== 0
+            ? p.genre.id === genreId
+            : true;
+
+        // --- LANGUAGE RULE ---
+        // Ignore if languageId is 0 or null
+        const matchesLanguage =
+          languageId && languageId !== 0
+            ? p.language.id === languageId
+            : true;
+
+        // --- RATING RULE (exact match using rounded rating) ---
+        const roundedRating = Math.round(p.rating);
+        const matchesRating =
+          rating && rating !== 0
+            ? roundedRating === rating
+            : true;
+
+        return (
+          matchesStatus &&
+          matchesName &&
+          matchesGenre &&
+          matchesLanguage &&
+          matchesRating
+        );
       })
       .sort((a, b) => a.title.localeCompare(b.title)) ?? [];
+
   return {
     data: filtered,
     isLoading,
     isError,
   };
 }
+
 
 
